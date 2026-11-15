@@ -1,95 +1,82 @@
-@import "tailwindcss";
+@import "tailwindcss" source(".");
+
+/* Design tokens. Every colour and font in the site comes from here. */
+@theme {
+  --color-white: #FFFFFF;
+  --color-paper: #F8F8F8;
+  --color-ink: #111111;
+  --color-body: #333333;
+  --color-muted: #666666;
+  --color-line: #E5E5E5;
+  --color-gold: #EAAA2F;
+  --color-promo: #FBCE22;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", "Inter", ui-sans-serif, sans-serif;
+  --font-poster: "Bebas Neue", "Montserrat", sans-serif;
+}
 
 @layer base {
-  :root {
-    --brand-gold: #EAAA2F;
-    --promo-yellow: #FBCE22;
-    --deep-gold: #B78D1D;
-    --brand-neon: #B9B501;
-    --brand-black: #0B0B0C;
-    --brand-charcoal: #333333;
-    --brand-surface: #141417;
-    --font-headline: "Bebas Neue", sans-serif;
-    --font-promo: "Montserrat", sans-serif;
-    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-    --font-mono: "JetBrains Mono", monospace;
-  }
-
   html {
+    background: var(--color-white);
+    color: var(--color-body);
     font-family: var(--font-sans);
-    background-color: #0B0B0C;
-    color: #FFFFFF;
-    color-scheme: dark;
+    -webkit-font-smoothing: antialiased;
+    color-scheme: light;
+  }
+
+  body {
+    background: var(--color-white);
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  ::selection {
+    background: var(--color-gold);
+    color: var(--color-ink);
+  }
+
+  /* Leave room for the sticky header when jumping to a section. */
+  [id] {
+    scroll-margin-top: 80px;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 3px;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
   }
 }
 
-.font-headline {
-  font-family: var(--font-headline);
-  letter-spacing: 0.04em;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
-.font-promo {
-  font-family: var(--font-promo);
+dialog::backdrop {
+  background: rgb(17 17 17 / 0.85);
 }
 
-.font-mono-num {
-  font-family: var(--font-mono);
-}
-
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #0B0B0C;
-}
-::-webkit-scrollbar-thumb {
-  background: #333333;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #EAAA2F;
-}
-
-/* Shawarma Moods Checkered Wrapper Motif */
-.checkered-motif {
-  background-image:
-    linear-gradient(45deg, #1E1E22 25%, transparent 25%),
-    linear-gradient(-45deg, #1E1E22 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, #1E1E22 75%),
-    linear-gradient(-45deg, transparent 75%, #1E1E22 75%);
-  background-size: 16px 16px;
-  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
-}
-
-/* Subtle warm string-light shimmer */
-@keyframes ember-pulse {
-  0%, 100% { opacity: 0.75; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.03); }
-}
-
-.animate-ember {
-  animation: ember-pulse 4s ease-in-out infinite;
-}
-
-/* Reduced motion override */
-.reduce-motion *,
-.reduce-motion *::before,
-.reduce-motion *::after {
-  animation-duration: 0.001ms !important;
-  animation-iteration-count: 1 !important;
-  transition-duration: 0.001ms !important;
-  scroll-behavior: auto !important;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.001ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
-    scroll-behavior: auto !important;
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  header {
+    position: static !important;
+  }
+  section {
+    break-inside: avoid-page;
+  }
+  body {
+    font-size: 12pt;
   }
 }

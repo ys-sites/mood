@@ -15,3 +15,11 @@
    - **Claude Opus**: Emotional storytelling, persuasive owner messaging, 60s and 5-min video scripts.
    - **Codex**: React 19 component structure, typed data models, reactive state (interactive meal calculator & unit economics simulator).
    - **Gemini**: Brand fidelity review, color palette harmony, contrast checking, Quebec French/English localization support.
+
+5. **November 2026 redesign: white editorial proposal** (supersedes the dark "cinematic" presentation):
+   - Pure white background, `#111111` headings, `#333333` body, gold `#EAAA2F` used only for the restaurant's $1 contribution, primary buttons and the progress fill. Gold is never used as text colour on white (contrast is too low).
+   - Section order follows the owner-pitch brief: Proposal → Opportunity → How it works → Marketing plan → Target → Business value → Creative → Video → Financials → Execution → Decision.
+   - Removed: presentation mode, EN/FR toggle, presenter notes, flywheel graphic, animated text effects, Aurora background, icon grids, decorative badges. The FR toggle can return once the copy is final and translated by a native speaker.
+   - Logo: cropped unaltered from the supplied poster (`public/brand/logo-from-poster.png`) and shown on its own black ground. Replace with the official file when supplied.
+   - Financial defaults are labelled placeholders. Selling price defaults to $15 (the "normally $15" price in the brief, unconfirmed).
+   - No video files exist in this repo or `ys-sites/video`, so the video section shows "in production" placeholders, not fake previews.

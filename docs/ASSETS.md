@@ -1,16 +1,16 @@
 # ASSET INVENTORY & MEDIA REGISTRY
 
-## Primary Brand Media
-1. **Official Campaign Concept Posters**:
-   - Path: `/buy-one-give-one-poster.jpg` (in `public/`, copied from supplied JPG reference)
-   - Path: `/Buy One, Give One Shawarma.png` (in `public/`, original PNG reference)
-   - Usage: Hero preview (`CampaignHero.tsx`), Campaign Asset Showcase (`CampaignPosterGallery.tsx`), Lightbox (`LightboxModal.tsx`), and Video Placeholder backdrop (`VideoShowcase.tsx`).
-2. **Branded Visual Elements & Tokens**:
-   - Primary Gold: `#EAAA2F` · Promotional Yellow: `#FBCE22` · Black: `#0B0B0C` · Charcoal: `#333333` · White: `#FFFFFF`
-   - Typography: `Bebas Neue` (headlines), `Montserrat` (700/800/900 promo statements), `Inter` (body), `JetBrains Mono` (counters & timecodes)
-   - Checkered wrapper motif (`.checkered-motif`) and subtle Montréal winter/string-light overlays
+## In use
+| File | Source | Used in |
+|---|---|---|
+| `public/Buy One, Give One Shawarma.png` | Supplied concept poster (1086×1448) | Full-size viewer |
+| `public/images/poster-main.jpg` | Same poster, JPEG for page load (~340 KB) | Hero, Creative section |
+| `public/images/poster-detail-wrap.jpg` | Crop of the poster: gloved hand, checkered wrapper, round sticker | Opportunity section |
+| `public/brand/logo-from-poster.png` | Logo cropped unaltered from the poster | Header, closing section |
+| `public/buy-one-give-one-poster.jpg` | Earlier 768×1024 copy of the poster | Not used; kept for reference |
 
-## Conceptual Video Placeholders (Awaiting Final Renders)
-- `Owner_Pitch_5min.mp4` (16:9 widescreen preview placeholder in `VideoShowcase.tsx`, synced with `PITCH_VIDEO_MODULES`)
-- `Campaign_Trailer_60sec.mp4` (9:16 vertical preview placeholder in `VideoShowcase.tsx`, synced with `TRAILER_SCENES`)
-- Status: No `.mp4` files or `VIDEO_HANDOFF.md` exist in the repository yet; UI renders explicitly labeled preview placeholders without fabricated video streams.
+## Missing (needed from the restaurant)
+- Official logo file (vector or high-res PNG). The current logo is a crop from the concept poster.
+- Real Crispy Moods food photography, packaging, staff and store photos. The site currently has no photo that was taken at a Shawarma Moods location.
+- Finished posters for the 1,000-meal challenge, the $1 contribution, the Reel and the distribution recap.
+- Video renders: `Owner_Pitch_5min.mp4` and `Campaign_Trailer_60sec.mp4` (not yet produced; checked this repo and `ys-sites/video`).

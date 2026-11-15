@@ -29,3 +29,11 @@
 - [x] Phase 4: Verification, Lint & Build
   - [x] Ran `npm run lint` (`tsc --noEmit`) with exit code 0
   - [x] Ran `npm run build` (`vite build`) with exit code 0 (`dist/` generated)
+
+- [x] Phase 5: White editorial redesign (November 2026)
+  - [x] Replaced the dark dashboard with an 11-section white business proposal (see DECISIONS.md #5)
+  - [x] Rewrote all copy in plain business language (`src/data/proposal.ts`)
+  - [x] Rebuilt the cost calculator with editable placeholder inputs and 1,000 / 2,000 / custom volume
+  - [x] Removed unused components, text-effect components, `lucide-react` and `motion`
+  - [x] Verified calculations, dialog, navigation and layout at 390 / 768 / 1024 / 1440 px
+  - [ ] Owner to supply: official logo, food photography, confirmed price, cost figures

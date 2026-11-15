@@ -1,104 +1,88 @@
+// Placeholder assumptions for the cost table. None of these are Shawarma Moods'
+// actual figures. The owner replaces them in the page and the table recalculates.
+
 export interface FinancialInputs {
-  sellingPricePerShawarma: number;       // Qualifying purchase price per shawarma (2x per bundle)
-  ingredientCostPerShawarma: number;     // Food COGS per shawarma (applies to BOTH customer + donated meal)
-  packagingCostPerShawarma: number;      // Wrapper, sticker, foil, gloves per shawarma
-  laborCostPerShawarma: number;          // Prep & kitchen labor allocation per shawarma
-  additionalOperatingCostPerMeal: number;// Utilities, payment processing, POS overhead per shawarma
-  restaurantContributionPerDonated: number; // $1.00 community fund match per donated meal
-  campaignMarketingBudget: number;       // Fixed creative/video/print budget
-  distributionTransportExpenses: number; // Fixed Dec 23 thermal boxes, van/delivery expenses
-  estimatedDonatedMeals: number;         // Number of qualifying 2-shawarma bundles sold
+  sellingPrice: number; // price the customer pays per shawarma
+  ingredientCost: number; // per shawarma
+  packagingCost: number; // per shawarma
+  laborCost: number; // per shawarma
+  contributionPerMeal: number; // restaurant's extra $ per verified donated meal
+  distributionCost: number; // fixed, whole campaign
+  marketingBudget: number; // fixed, whole campaign
+  donatedMeals: number; // campaign volume
 }
 
-export const DEFAULT_FINANCIAL_INPUTS: FinancialInputs = {
-  sellingPricePerShawarma: 12.0,
-  ingredientCostPerShawarma: 3.8,
-  packagingCostPerShawarma: 0.65,
-  laborCostPerShawarma: 1.55,
-  additionalOperatingCostPerMeal: 0.45,
-  restaurantContributionPerDonated: 1.0,
-  campaignMarketingBudget: 650,
-  distributionTransportExpenses: 350,
-  estimatedDonatedMeals: 1000,
+export const DEFAULT_INPUTS: FinancialInputs = {
+  sellingPrice: 15,
+  ingredientCost: 3.8,
+  packagingCost: 0.65,
+  laborCost: 1.55,
+  contributionPerMeal: 1,
+  distributionCost: 350,
+  marketingBudget: 650,
+  donatedMeals: 1000,
 };
 
-export interface FinancialBreakdown {
+export interface FinancialResult {
   donatedMeals: number;
-  totalShawarmasProduced: number; // 2x donatedMeals (1 enjoyed + 1 donated)
-  qualifyingRevenue: number;
-  estimatedProductionCost: number; // Full cost for BOTH shawarmas
-  additionalRestaurantContribution: number; // $1 per donated meal -> separate community fund
-  campaignDirectFixedCost: number; // Marketing + distribution/transport
-  totalAllCosts: number;
-  estimatedContributionMargin: number;
+  shawarmasSold: number;
+  revenue: number;
+  ingredients: number;
+  packaging: number;
+  labor: number;
+  restaurantContribution: number;
+  distribution: number;
+  marketing: number;
+  totalCosts: number;
+  contributionMargin: number;
   marginPercent: number;
+  /** What Shawarma Moods spends on the giving itself: $1 per meal + distribution + marketing. */
+  directCampaignCost: number;
 }
 
-export function calculateCampaignEconomics(
-  inputs: FinancialInputs,
-  overrideMeals?: number
-): FinancialBreakdown {
-  const donatedMeals = Math.max(0, overrideMeals ?? inputs.estimatedDonatedMeals);
-  const totalShawarmasProduced = donatedMeals * 2;
+const clean = (n: number) => (Number.isFinite(n) && n > 0 ? n : 0);
 
-  // Customer pays for two shawarmas per qualifying transaction
-  const qualifyingRevenue = totalShawarmasProduced * inputs.sellingPricePerShawarma;
+export function calculate(inputs: FinancialInputs): FinancialResult {
+  const donatedMeals = Math.round(clean(inputs.donatedMeals));
+  // Every donated meal means the customer paid for two shawarmas,
+  // and the kitchen makes two. The donated one is not free to produce.
+  const shawarmasSold = donatedMeals * 2;
 
-  // CRITICAL RULE: Both the enjoyed shawarma AND the donated shawarma incur full production costs
-  const unitCostPerShawarma =
-    inputs.ingredientCostPerShawarma +
-    inputs.packagingCostPerShawarma +
-    inputs.laborCostPerShawarma +
-    inputs.additionalOperatingCostPerMeal;
+  const revenue = shawarmasSold * clean(inputs.sellingPrice);
+  const ingredients = shawarmasSold * clean(inputs.ingredientCost);
+  const packaging = shawarmasSold * clean(inputs.packagingCost);
+  const labor = shawarmasSold * clean(inputs.laborCost);
+  const restaurantContribution = donatedMeals * clean(inputs.contributionPerMeal);
+  const distribution = clean(inputs.distributionCost);
+  const marketing = clean(inputs.marketingBudget);
 
-  const estimatedProductionCost = totalShawarmasProduced * unitCostPerShawarma;
-
-  // Separate $1 community fund contribution per verified donated meal
-  const additionalRestaurantContribution = donatedMeals * inputs.restaurantContributionPerDonated;
-
-  const campaignDirectFixedCost =
-    inputs.campaignMarketingBudget + inputs.distributionTransportExpenses;
-
-  const totalAllCosts =
-    estimatedProductionCost + additionalRestaurantContribution + campaignDirectFixedCost;
-
-  const estimatedContributionMargin = qualifyingRevenue - totalAllCosts;
-  const marginPercent =
-    qualifyingRevenue > 0
-      ? Math.round((estimatedContributionMargin / qualifyingRevenue) * 1000) / 10
-      : 0;
+  const totalCosts = ingredients + packaging + labor + restaurantContribution + distribution + marketing;
+  const contributionMargin = revenue - totalCosts;
+  const marginPercent = revenue > 0 ? (contributionMargin / revenue) * 100 : 0;
 
   return {
     donatedMeals,
-    totalShawarmasProduced,
-    qualifyingRevenue,
-    estimatedProductionCost,
-    additionalRestaurantContribution,
-    campaignDirectFixedCost,
-    totalAllCosts,
-    estimatedContributionMargin,
+    shawarmasSold,
+    revenue,
+    ingredients,
+    packaging,
+    labor,
+    restaurantContribution,
+    distribution,
+    marketing,
+    totalCosts,
+    contributionMargin,
     marginPercent,
+    directCampaignCost: restaurantContribution + distribution + marketing,
   };
 }
 
-export const SCENARIO_TARGETS = [
-  {
-    id: 'conservative',
-    label: 'Conservative',
-    meals: 500,
-    note: 'Moderate counter adoption (~62 meals/location across 8 stores)',
-  },
-  {
-    id: 'target',
-    label: 'Target Goal',
-    meals: 1000,
-    note: 'Primary 1,000-meal goal (~125/location or 1,000 flagship)',
-    isTarget: true,
-  },
-  {
-    id: 'stretch',
-    label: 'Stretch Goal',
-    meals: 2000,
-    note: 'Conditional expansion subject to capacity & owner approval',
-  },
-] as const;
+const money0 = new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0, minimumFractionDigits: 0 });
+const money2 = new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD', maximumFractionDigits: 2, minimumFractionDigits: 2 });
+const count = new Intl.NumberFormat('en-CA');
+
+// `|| 0` turns -0 into 0 so a rounded value never shows as "-$0".
+// Negative amounts use a true minus sign to match the cost rows in the table.
+export const formatMoney = (n: number) => money0.format(Math.round(n) || 0).replace('-', '−');
+export const formatMoneyCents = (n: number) => money2.format(Math.round(n * 100) / 100 || 0).replace('-', '−');
+export const formatCount = (n: number) => count.format(n);

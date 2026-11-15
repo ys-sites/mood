@@ -1,110 +1,51 @@
-import { useEffect, useState } from 'react';
-import { Language, PRESENTATION_SECTIONS } from './data/campaignConstants';
-import { ProposalBanner } from './components/ProposalBanner';
-import { Navbar } from './components/Navbar';
-import { PresentationControls } from './components/PresentationControls';
-import { CampaignHero } from './components/CampaignHero';
-import { NarrativeSection } from './components/NarrativeSection';
-import { TwoShawarmaExplainer } from './components/TwoShawarmaExplainer';
-import { RestaurantContribution } from './components/RestaurantContribution';
-import { DonationSimulator } from './components/DonationSimulator';
-import { MilestoneTimeline } from './components/MilestoneTimeline';
-import { CommunityFlywheel } from './components/CommunityFlywheel';
-import { CreatorReelShowcase } from './components/CreatorReelShowcase';
-import { PartnerNetwork } from './components/PartnerNetwork';
-import { CommercialOffersSection } from './components/CommercialOffersSection';
-import { FinancialSimulator } from './components/FinancialSimulator';
-import { CampaignPosterGallery } from './components/CampaignPosterGallery';
-import { VideoShowcase } from './components/VideoShowcase';
-import { ImplementationTimeline } from './components/ImplementationTimeline';
-import { OwnerDecisionPanel } from './components/OwnerDecisionPanel';
-import { Footer } from './components/Footer';
-import { LightboxModal } from './components/LightboxModal';
+import { useState } from 'react';
+import { SiteHeader } from './components/SiteHeader';
+import { Hero } from './components/Hero';
+import { Opportunity } from './components/Opportunity';
+import { HowItWorks } from './components/HowItWorks';
+import { MarketingPlan } from './components/MarketingPlan';
+import { CampaignTarget } from './components/CampaignTarget';
+import { BusinessValue } from './components/BusinessValue';
+import { CreativeCampaign } from './components/CreativeCampaign';
+import { VideoPitch } from './components/VideoPitch';
+import { Financials } from './components/Financials';
+import { ExecutionPlan } from './components/ExecutionPlan';
+import { Decision } from './components/Decision';
+import { ImageDialog, type DialogImage } from './components/ImageDialog';
 
 export function App() {
-  const [lang, setLang] = useState<Language>('en');
-  const [presentationMode, setPresentationMode] = useState(false);
-  const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
-  const [reducedMotion, setReducedMotion] = useState(false);
-  const [lightboxImg, setLightboxImg] = useState<string | null>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            const idx = PRESENTATION_SECTIONS.findIndex((s) => s.id === entry.target.id);
-            if (idx !== -1) {
-              setCurrentSectionIndex(idx);
-            }
-          }
-        }
-      },
-      { rootMargin: '-35% 0px -50% 0px', threshold: 0.01 }
-    );
-
-    PRESENTATION_SECTIONS.forEach((sec) => {
-      const el = document.getElementById(sec.id);
-      if (el) observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
-
-  const handleOpenChecklist = () => {
-    const el = document.getElementById('section-15');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
+  const [image, setImage] = useState<DialogImage | null>(null);
 
   return (
-    <div
-      className={`min-h-screen bg-[#0B0B0C] text-white selection:bg-[#EAAA2F] selection:text-[#0B0B0C] ${
-        reducedMotion ? 'reduce-motion' : ''
-      }`}
-    >
-      <ProposalBanner lang={lang} />
-      <Navbar
-        lang={lang}
-        setLang={setLang}
-        presentationMode={presentationMode}
-        onTogglePresentationMode={() => setPresentationMode((prev) => !prev)}
-        onOpenChecklist={handleOpenChecklist}
-      />
-
+    <>
+      <a
+        href="#proposal-title"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:text-ink"
+      >
+        Skip to the proposal
+      </a>
+      <SiteHeader />
       <main>
-        <CampaignHero lang={lang} onOpenPosterModal={(img) => setLightboxImg(img)} />
-        <NarrativeSection lang={lang} />
-        <TwoShawarmaExplainer lang={lang} />
-        <RestaurantContribution lang={lang} />
-        <DonationSimulator lang={lang} />
-        <MilestoneTimeline lang={lang} />
-        <CommunityFlywheel lang={lang} />
-        <CreatorReelShowcase lang={lang} />
-        <PartnerNetwork lang={lang} />
-        <CommercialOffersSection lang={lang} />
-        <FinancialSimulator lang={lang} />
-        <CampaignPosterGallery lang={lang} onOpenPosterModal={(img) => setLightboxImg(img)} />
-        <VideoShowcase lang={lang} />
-        <ImplementationTimeline lang={lang} />
-        <OwnerDecisionPanel lang={lang} />
+        <Hero onOpenImage={setImage} />
+        <Opportunity />
+        <HowItWorks />
+        <MarketingPlan />
+        <CampaignTarget />
+        <BusinessValue />
+        <CreativeCampaign onOpenImage={setImage} />
+        <VideoPitch />
+        <Financials />
+        <ExecutionPlan />
+        <Decision />
       </main>
-
-      <Footer />
-
-      <PresentationControls
-        lang={lang}
-        active={presentationMode}
-        currentSectionIndex={currentSectionIndex}
-        setCurrentSectionIndex={setCurrentSectionIndex}
-        reducedMotion={reducedMotion}
-        onToggleReducedMotion={() => setReducedMotion((prev) => !prev)}
-        onClose={() => setPresentationMode(false)}
-      />
-
-      <LightboxModal imgSrc={lightboxImg} onClose={() => setLightboxImg(null)} />
-    </div>
+      <footer className="border-t border-line bg-white">
+        <div className="mx-auto max-w-[1160px] px-5 py-8 text-sm text-muted sm:px-8">
+          Private proposal prepared for Shawarma Moods, November 2026. The campaign is not live. All figures are
+          illustrative until approved.
+        </div>
+      </footer>
+      <ImageDialog image={image} onClose={() => setImage(null)} />
+    </>
   );
 }
 
