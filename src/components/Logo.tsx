@@ -1,15 +1,14 @@
 /**
- * The Shawarma Moods logo, cropped unaltered from the supplied campaign poster
- * (gold mark on its own black ground). Replace /brand/logo-from-poster.png with
- * the official logo file when the restaurant provides it.
+ * The Shawarma Moods logo as supplied by the client (gold mark on its own
+ * black ground), cropped only to remove empty margin. Do not redraw or recolour.
  */
 export function Logo({ className = '' }: { className?: string }) {
   return (
     <img
-      src="/brand/logo-from-poster.png"
+      src="/brand/logo.png"
       alt="Shawarma Moods"
-      width={306}
-      height={122}
+      width={398}
+      height={178}
       className={`w-auto rounded-[2px] ${className}`}
     />
   );
