@@ -1,0 +1,90 @@
+{
+  "id": "7654553892700605727",
+  "duration_s": 36.97,
+  "fps": 30.0,
+  "width": 720,
+  "height": 1280,
+  "cuts": [
+    3.033,
+    6.367,
+    16.9,
+    20.067,
+    21.633,
+    23.233,
+    25.167,
+    29.967,
+    31.9
+  ],
+  "shots_s": [
+    3.033,
+    3.334,
+    10.533,
+    3.167,
+    1.566,
+    1.6,
+    1.934,
+    4.8,
+    1.933,
+    5.069
+  ],
+  "cuts_per_10s": 2.43,
+  "median_shot_s": 3.1,
+  "zooms": [
+    {
+      "t": 6.433,
+      "kind": "push",
+      "scale": 1.06,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 11.933,
+      "kind": "push",
+      "scale": 0.96,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 16.933,
+      "kind": "push",
+      "scale": 1.61,
+      "duration_s": 2.5,
+      "on_cut": false
+    },
+    {
+      "t": 25.167,
+      "kind": "punch",
+      "scale": 1.5,
+      "duration_s": 0.0,
+      "on_cut": true
+    },
+    {
+      "t": 26.467,
+      "kind": "punch",
+      "scale": 0.67,
+      "duration_s": 0.0,
+      "on_cut": false
+    },
+    {
+      "t": 34.467,
+      "kind": "push",
+      "scale": 1.14,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 36.3,
+      "kind": "punch",
+      "scale": 0.83,
+      "duration_s": 0.0,
+      "on_cut": false
+    }
+  ],
+  "zooms_per_min": 11.4,
+  "sheets": [
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7654553892700605727-01.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7654553892700605727-02.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7654553892700605727-03.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7654553892700605727-04.jpg"
+  ]
+}

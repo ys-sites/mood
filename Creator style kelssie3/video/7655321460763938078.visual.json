@@ -1,0 +1,81 @@
+{
+  "id": "7655321460763938078",
+  "duration_s": 39.93,
+  "fps": 30.0,
+  "width": 720,
+  "height": 1280,
+  "cuts": [
+    4.7,
+    11.267,
+    13.5,
+    15.1,
+    19.2,
+    24.8,
+    30.667,
+    35.367
+  ],
+  "shots_s": [
+    4.7,
+    6.567,
+    2.233,
+    1.6,
+    4.1,
+    5.6,
+    5.867,
+    4.7,
+    4.567
+  ],
+  "cuts_per_10s": 2.0,
+  "median_shot_s": 4.7,
+  "zooms": [
+    {
+      "t": 6.767,
+      "kind": "push",
+      "scale": 0.94,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 15.167,
+      "kind": "push",
+      "scale": 1.06,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 17.667,
+      "kind": "push",
+      "scale": 1.32,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 18.2,
+      "kind": "punch",
+      "scale": 1.15,
+      "duration_s": 0.0,
+      "on_cut": false
+    },
+    {
+      "t": 35.933,
+      "kind": "push",
+      "scale": 0.78,
+      "duration_s": 2.0,
+      "on_cut": false
+    },
+    {
+      "t": 38.433,
+      "kind": "push",
+      "scale": 0.94,
+      "duration_s": 1.0,
+      "on_cut": false
+    }
+  ],
+  "zooms_per_min": 9.0,
+  "sheets": [
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7655321460763938078-01.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7655321460763938078-02.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7655321460763938078-03.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7655321460763938078-04.jpg"
+  ]
+}

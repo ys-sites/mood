@@ -1,0 +1,399 @@
+{
+  "text": "Before you hire a realtor, don't just take their word for it. Look at what their clients are saying. I'm proud of the reviews I received because it truly reflects how much I care about the people I serve. Click the link in my bio, scroll down to reviews, and let's talk about how I can help you next.",
+  "language_code": "en",
+  "audio_duration_secs": 15.071,
+  "words": [
+    {
+      "text": "Before",
+      "start": 0.0,
+      "end": 0.4,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 0.4,
+      "end": 0.62,
+      "type": "word"
+    },
+    {
+      "text": "hire",
+      "start": 0.62,
+      "end": 0.82,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 0.82,
+      "end": 0.96,
+      "type": "word"
+    },
+    {
+      "text": "realtor,",
+      "start": 0.96,
+      "end": 1.32,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 1.32,
+      "end": 1.62,
+      "type": "spacing"
+    },
+    {
+      "text": "don't",
+      "start": 1.62,
+      "end": 2.08,
+      "type": "word"
+    },
+    {
+      "text": "just",
+      "start": 2.08,
+      "end": 2.3,
+      "type": "word"
+    },
+    {
+      "text": "take",
+      "start": 2.3,
+      "end": 2.48,
+      "type": "word"
+    },
+    {
+      "text": "their",
+      "start": 2.48,
+      "end": 2.62,
+      "type": "word"
+    },
+    {
+      "text": "word",
+      "start": 2.62,
+      "end": 2.78,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 2.78,
+      "end": 2.98,
+      "type": "word"
+    },
+    {
+      "text": "it.",
+      "start": 2.98,
+      "end": 3.2,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 3.2,
+      "end": 3.68,
+      "type": "spacing"
+    },
+    {
+      "text": "Look",
+      "start": 3.68,
+      "end": 3.78,
+      "type": "word"
+    },
+    {
+      "text": "at",
+      "start": 3.78,
+      "end": 3.92,
+      "type": "word"
+    },
+    {
+      "text": "what",
+      "start": 3.92,
+      "end": 4.0,
+      "type": "word"
+    },
+    {
+      "text": "their",
+      "start": 4.0,
+      "end": 4.14,
+      "type": "word"
+    },
+    {
+      "text": "clients",
+      "start": 4.14,
+      "end": 4.46,
+      "type": "word"
+    },
+    {
+      "text": "are",
+      "start": 4.46,
+      "end": 4.64,
+      "type": "word"
+    },
+    {
+      "text": "saying.",
+      "start": 4.64,
+      "end": 4.88,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 4.88,
+      "end": 5.44,
+      "type": "spacing"
+    },
+    {
+      "text": "I'm",
+      "start": 5.44,
+      "end": 5.62,
+      "type": "word"
+    },
+    {
+      "text": "proud",
+      "start": 5.62,
+      "end": 5.78,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 5.78,
+      "end": 5.96,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 5.96,
+      "end": 6.0,
+      "type": "word"
+    },
+    {
+      "text": "reviews",
+      "start": 6.0,
+      "end": 6.28,
+      "type": "word"
+    },
+    {
+      "text": "I",
+      "start": 6.28,
+      "end": 6.46,
+      "type": "word"
+    },
+    {
+      "text": "received",
+      "start": 6.46,
+      "end": 6.7,
+      "type": "word"
+    },
+    {
+      "text": "because",
+      "start": 6.7,
+      "end": 7.14,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 7.14,
+      "end": 7.3,
+      "type": "word"
+    },
+    {
+      "text": "truly",
+      "start": 7.3,
+      "end": 7.54,
+      "type": "word"
+    },
+    {
+      "text": "reflects",
+      "start": 7.54,
+      "end": 7.86,
+      "type": "word"
+    },
+    {
+      "text": "how",
+      "start": 7.86,
+      "end": 8.24,
+      "type": "word"
+    },
+    {
+      "text": "much",
+      "start": 8.24,
+      "end": 8.38,
+      "type": "word"
+    },
+    {
+      "text": "I",
+      "start": 8.38,
+      "end": 8.48,
+      "type": "word"
+    },
+    {
+      "text": "care",
+      "start": 8.48,
+      "end": 8.72,
+      "type": "word"
+    },
+    {
+      "text": "about",
+      "start": 8.72,
+      "end": 8.88,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 8.88,
+      "end": 9.02,
+      "type": "word"
+    },
+    {
+      "text": "people",
+      "start": 9.02,
+      "end": 9.2,
+      "type": "word"
+    },
+    {
+      "text": "I",
+      "start": 9.2,
+      "end": 9.38,
+      "type": "word"
+    },
+    {
+      "text": "serve.",
+      "start": 9.38,
+      "end": 9.58,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 9.58,
+      "end": 10.2,
+      "type": "spacing"
+    },
+    {
+      "text": "Click",
+      "start": 10.2,
+      "end": 10.42,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 10.42,
+      "end": 10.6,
+      "type": "word"
+    },
+    {
+      "text": "link",
+      "start": 10.6,
+      "end": 10.7,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 10.7,
+      "end": 10.78,
+      "type": "word"
+    },
+    {
+      "text": "my",
+      "start": 10.78,
+      "end": 10.88,
+      "type": "word"
+    },
+    {
+      "text": "bio,",
+      "start": 10.88,
+      "end": 11.16,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 11.16,
+      "end": 11.64,
+      "type": "spacing"
+    },
+    {
+      "text": "scroll",
+      "start": 11.64,
+      "end": 11.88,
+      "type": "word"
+    },
+    {
+      "text": "down",
+      "start": 11.88,
+      "end": 12.1,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 12.1,
+      "end": 12.22,
+      "type": "word"
+    },
+    {
+      "text": "reviews,",
+      "start": 12.22,
+      "end": 12.58,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 12.58,
+      "end": 12.98,
+      "type": "spacing"
+    },
+    {
+      "text": "and",
+      "start": 12.98,
+      "end": 13.08,
+      "type": "word"
+    },
+    {
+      "text": "let's",
+      "start": 13.08,
+      "end": 13.26,
+      "type": "word"
+    },
+    {
+      "text": "talk",
+      "start": 13.26,
+      "end": 13.36,
+      "type": "word"
+    },
+    {
+      "text": "about",
+      "start": 13.36,
+      "end": 13.52,
+      "type": "word"
+    },
+    {
+      "text": "how",
+      "start": 13.52,
+      "end": 13.64,
+      "type": "word"
+    },
+    {
+      "text": "I",
+      "start": 13.64,
+      "end": 13.68,
+      "type": "word"
+    },
+    {
+      "text": "can",
+      "start": 13.68,
+      "end": 13.76,
+      "type": "word"
+    },
+    {
+      "text": "help",
+      "start": 13.76,
+      "end": 13.86,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 13.86,
+      "end": 13.96,
+      "type": "word"
+    },
+    {
+      "text": "next.",
+      "start": 13.96,
+      "end": 14.1,
+      "type": "word"
+    }
+  ],
+  "_engine": "whisper",
+  "_source": "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\video\\7541010258676763935.mp4"
+}

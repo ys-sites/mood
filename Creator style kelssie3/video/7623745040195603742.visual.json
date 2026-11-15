@@ -1,0 +1,97 @@
+{
+  "id": "7623745040195603742",
+  "duration_s": 46.05,
+  "fps": 30.0,
+  "width": 720,
+  "height": 1280,
+  "cuts": [
+    5.533,
+    12.433,
+    26.267,
+    33.067,
+    36.4
+  ],
+  "shots_s": [
+    5.533,
+    6.9,
+    13.834,
+    6.8,
+    3.333,
+    9.65
+  ],
+  "cuts_per_10s": 1.09,
+  "median_shot_s": 6.85,
+  "zooms": [
+    {
+      "t": 0.067,
+      "kind": "push",
+      "scale": 0.94,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 13.467,
+      "kind": "push",
+      "scale": 1.06,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 21.467,
+      "kind": "push",
+      "scale": 0.96,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 29.633,
+      "kind": "punch",
+      "scale": 1.15,
+      "duration_s": 0.0,
+      "on_cut": false
+    },
+    {
+      "t": 31.333,
+      "kind": "push",
+      "scale": 0.85,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 34.133,
+      "kind": "push",
+      "scale": 0.92,
+      "duration_s": 1.5,
+      "on_cut": false
+    },
+    {
+      "t": 38.1,
+      "kind": "punch",
+      "scale": 0.83,
+      "duration_s": 0.0,
+      "on_cut": false
+    },
+    {
+      "t": 38.467,
+      "kind": "push",
+      "scale": 0.94,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 39.467,
+      "kind": "push",
+      "scale": 1.04,
+      "duration_s": 1.0,
+      "on_cut": false
+    }
+  ],
+  "zooms_per_min": 11.7,
+  "sheets": [
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7623745040195603742-01.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7623745040195603742-02.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7623745040195603742-03.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7623745040195603742-04.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7623745040195603742-05.jpg"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "handle": "kelssie3",
+  "videos": 6,
+  "aspect": "9:16",
+  "pace": {
+    "wpm": 208,
+    "max_pause_s": 0.44,
+    "cuts_per_10s": 1.91,
+    "median_shot_s": 4.77
+  },
+  "zoom": {
+    "per_min": 12.1,
+    "kind": "push",
+    "scale": 1.09,
+    "duration_s": 1.0,
+    "on": "emphasis"
+  },
+  "captions": {
+    "present": true,
+    "words_per_caption": 2,
+    "y_pct": 49,
+    "size_pct": 2.2,
+    "case": "sentence",
+    "font_match": "Inter",
+    "weight": 300,
+    "color": "#FFFFFF",
+    "highlight_color": null,
+    "stroke": false,
+    "box": false,
+    "animation": "none"
+  }
+}

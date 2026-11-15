@@ -1,0 +1,741 @@
+{
+  "text": "Before I share this location, let me show you my favorite features of this single -level chain. Fuller model kitchen with a coffee bar. Fully modernized primary bathroom. The perfect sunroof. A basement fully equipped for your in -laws. Bedroom, bathroom, living area, and flex space. Just over 3 ,000 square feet. Four bedroom, three bathroom, an office, and an extra plot of land where you can keep it to build, resale, or have a place where it gets to run. Now, located in Statesville, North Carolina, you are less than 10 minutes to downtown Statesville and every essential you could need.",
+  "language_code": "en",
+  "audio_duration_secs": 61.79,
+  "words": [
+    {
+      "text": "Before",
+      "start": 0.0,
+      "end": 0.48,
+      "type": "word"
+    },
+    {
+      "text": "I",
+      "start": 0.48,
+      "end": 0.8,
+      "type": "word"
+    },
+    {
+      "text": "share",
+      "start": 0.8,
+      "end": 0.9,
+      "type": "word"
+    },
+    {
+      "text": "this",
+      "start": 0.9,
+      "end": 1.08,
+      "type": "word"
+    },
+    {
+      "text": "location,",
+      "start": 1.08,
+      "end": 1.5,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 1.5,
+      "end": 1.86,
+      "type": "spacing"
+    },
+    {
+      "text": "let",
+      "start": 1.86,
+      "end": 2.02,
+      "type": "word"
+    },
+    {
+      "text": "me",
+      "start": 2.02,
+      "end": 2.18,
+      "type": "word"
+    },
+    {
+      "text": "show",
+      "start": 2.18,
+      "end": 2.3,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 2.3,
+      "end": 2.4,
+      "type": "word"
+    },
+    {
+      "text": "my",
+      "start": 2.4,
+      "end": 2.52,
+      "type": "word"
+    },
+    {
+      "text": "favorite",
+      "start": 2.52,
+      "end": 2.72,
+      "type": "word"
+    },
+    {
+      "text": "features",
+      "start": 2.72,
+      "end": 3.12,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 3.12,
+      "end": 3.44,
+      "type": "word"
+    },
+    {
+      "text": "this",
+      "start": 3.44,
+      "end": 3.58,
+      "type": "word"
+    },
+    {
+      "text": "single",
+      "start": 3.58,
+      "end": 3.78,
+      "type": "word"
+    },
+    {
+      "text": "-level",
+      "start": 3.78,
+      "end": 4.04,
+      "type": "word"
+    },
+    {
+      "text": "chain.",
+      "start": 4.04,
+      "end": 4.44,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 4.44,
+      "end": 5.54,
+      "type": "spacing"
+    },
+    {
+      "text": "Fuller",
+      "start": 5.54,
+      "end": 6.18,
+      "type": "word"
+    },
+    {
+      "text": "model",
+      "start": 6.18,
+      "end": 6.38,
+      "type": "word"
+    },
+    {
+      "text": "kitchen",
+      "start": 6.38,
+      "end": 6.7,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 6.7,
+      "end": 7.2,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 7.2,
+      "end": 7.34,
+      "type": "word"
+    },
+    {
+      "text": "coffee",
+      "start": 7.34,
+      "end": 7.52,
+      "type": "word"
+    },
+    {
+      "text": "bar.",
+      "start": 7.52,
+      "end": 7.82,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 7.82,
+      "end": 13.08,
+      "type": "spacing"
+    },
+    {
+      "text": "Fully",
+      "start": 13.08,
+      "end": 13.72,
+      "type": "word"
+    },
+    {
+      "text": "modernized",
+      "start": 13.72,
+      "end": 14.36,
+      "type": "word"
+    },
+    {
+      "text": "primary",
+      "start": 14.36,
+      "end": 14.64,
+      "type": "word"
+    },
+    {
+      "text": "bathroom.",
+      "start": 14.64,
+      "end": 15.0,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 15.0,
+      "end": 19.44,
+      "type": "spacing"
+    },
+    {
+      "text": "The",
+      "start": 19.44,
+      "end": 20.08,
+      "type": "word"
+    },
+    {
+      "text": "perfect",
+      "start": 20.08,
+      "end": 20.48,
+      "type": "word"
+    },
+    {
+      "text": "sunroof.",
+      "start": 20.48,
+      "end": 21.04,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 21.04,
+      "end": 25.62,
+      "type": "spacing"
+    },
+    {
+      "text": "A",
+      "start": 25.62,
+      "end": 26.1,
+      "type": "word"
+    },
+    {
+      "text": "basement",
+      "start": 26.1,
+      "end": 26.58,
+      "type": "word"
+    },
+    {
+      "text": "fully",
+      "start": 26.58,
+      "end": 27.12,
+      "type": "word"
+    },
+    {
+      "text": "equipped",
+      "start": 27.12,
+      "end": 27.48,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 27.48,
+      "end": 27.88,
+      "type": "word"
+    },
+    {
+      "text": "your",
+      "start": 27.88,
+      "end": 28.0,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 28.0,
+      "end": 28.18,
+      "type": "word"
+    },
+    {
+      "text": "-laws.",
+      "start": 28.18,
+      "end": 28.4,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 28.4,
+      "end": 28.84,
+      "type": "spacing"
+    },
+    {
+      "text": "Bedroom,",
+      "start": 28.84,
+      "end": 29.22,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 29.22,
+      "end": 29.44,
+      "type": "spacing"
+    },
+    {
+      "text": "bathroom,",
+      "start": 29.44,
+      "end": 29.8,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 29.8,
+      "end": 30.3,
+      "type": "spacing"
+    },
+    {
+      "text": "living",
+      "start": 30.3,
+      "end": 30.46,
+      "type": "word"
+    },
+    {
+      "text": "area,",
+      "start": 30.46,
+      "end": 30.84,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 30.84,
+      "end": 31.4,
+      "type": "spacing"
+    },
+    {
+      "text": "and",
+      "start": 31.4,
+      "end": 31.44,
+      "type": "word"
+    },
+    {
+      "text": "flex",
+      "start": 31.44,
+      "end": 31.8,
+      "type": "word"
+    },
+    {
+      "text": "space.",
+      "start": 31.8,
+      "end": 32.06,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 32.06,
+      "end": 34.2,
+      "type": "spacing"
+    },
+    {
+      "text": "Just",
+      "start": 34.2,
+      "end": 34.68,
+      "type": "word"
+    },
+    {
+      "text": "over",
+      "start": 34.68,
+      "end": 35.0,
+      "type": "word"
+    },
+    {
+      "text": "3",
+      "start": 35.0,
+      "end": 35.32,
+      "type": "word"
+    },
+    {
+      "text": ",000",
+      "start": 35.32,
+      "end": 35.66,
+      "type": "word"
+    },
+    {
+      "text": "square",
+      "start": 35.66,
+      "end": 35.86,
+      "type": "word"
+    },
+    {
+      "text": "feet.",
+      "start": 35.86,
+      "end": 36.16,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 36.16,
+      "end": 36.4,
+      "type": "spacing"
+    },
+    {
+      "text": "Four",
+      "start": 36.4,
+      "end": 36.56,
+      "type": "word"
+    },
+    {
+      "text": "bedroom,",
+      "start": 36.56,
+      "end": 36.9,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 36.9,
+      "end": 37.1,
+      "type": "spacing"
+    },
+    {
+      "text": "three",
+      "start": 37.1,
+      "end": 37.28,
+      "type": "word"
+    },
+    {
+      "text": "bathroom,",
+      "start": 37.28,
+      "end": 37.72,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 37.72,
+      "end": 37.92,
+      "type": "spacing"
+    },
+    {
+      "text": "an",
+      "start": 37.92,
+      "end": 37.98,
+      "type": "word"
+    },
+    {
+      "text": "office,",
+      "start": 37.98,
+      "end": 38.28,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 38.28,
+      "end": 38.56,
+      "type": "spacing"
+    },
+    {
+      "text": "and",
+      "start": 38.56,
+      "end": 38.7,
+      "type": "word"
+    },
+    {
+      "text": "an",
+      "start": 38.7,
+      "end": 38.8,
+      "type": "word"
+    },
+    {
+      "text": "extra",
+      "start": 38.8,
+      "end": 39.0,
+      "type": "word"
+    },
+    {
+      "text": "plot",
+      "start": 39.0,
+      "end": 39.24,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 39.24,
+      "end": 39.34,
+      "type": "word"
+    },
+    {
+      "text": "land",
+      "start": 39.34,
+      "end": 39.6,
+      "type": "word"
+    },
+    {
+      "text": "where",
+      "start": 39.6,
+      "end": 39.74,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 39.74,
+      "end": 39.82,
+      "type": "word"
+    },
+    {
+      "text": "can",
+      "start": 39.82,
+      "end": 39.94,
+      "type": "word"
+    },
+    {
+      "text": "keep",
+      "start": 39.94,
+      "end": 40.08,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 40.08,
+      "end": 40.24,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 40.24,
+      "end": 40.38,
+      "type": "word"
+    },
+    {
+      "text": "build,",
+      "start": 40.38,
+      "end": 40.66,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 40.66,
+      "end": 41.04,
+      "type": "spacing"
+    },
+    {
+      "text": "resale,",
+      "start": 41.04,
+      "end": 41.46,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 41.46,
+      "end": 41.6,
+      "type": "spacing"
+    },
+    {
+      "text": "or",
+      "start": 41.6,
+      "end": 41.86,
+      "type": "word"
+    },
+    {
+      "text": "have",
+      "start": 41.86,
+      "end": 42.3,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 42.3,
+      "end": 42.4,
+      "type": "word"
+    },
+    {
+      "text": "place",
+      "start": 42.4,
+      "end": 42.56,
+      "type": "word"
+    },
+    {
+      "text": "where",
+      "start": 42.56,
+      "end": 42.72,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 42.72,
+      "end": 42.84,
+      "type": "word"
+    },
+    {
+      "text": "gets",
+      "start": 42.84,
+      "end": 42.96,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 42.96,
+      "end": 43.14,
+      "type": "word"
+    },
+    {
+      "text": "run.",
+      "start": 43.14,
+      "end": 43.3,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 43.3,
+      "end": 51.04,
+      "type": "spacing"
+    },
+    {
+      "text": "Now,",
+      "start": 51.04,
+      "end": 51.34,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 51.34,
+      "end": 51.56,
+      "type": "spacing"
+    },
+    {
+      "text": "located",
+      "start": 51.56,
+      "end": 51.98,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 51.98,
+      "end": 52.24,
+      "type": "word"
+    },
+    {
+      "text": "Statesville,",
+      "start": 52.24,
+      "end": 52.7,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 52.7,
+      "end": 52.72,
+      "type": "spacing"
+    },
+    {
+      "text": "North",
+      "start": 52.72,
+      "end": 52.86,
+      "type": "word"
+    },
+    {
+      "text": "Carolina,",
+      "start": 52.86,
+      "end": 53.3,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 53.3,
+      "end": 53.56,
+      "type": "spacing"
+    },
+    {
+      "text": "you",
+      "start": 53.56,
+      "end": 53.68,
+      "type": "word"
+    },
+    {
+      "text": "are",
+      "start": 53.68,
+      "end": 53.82,
+      "type": "word"
+    },
+    {
+      "text": "less",
+      "start": 53.82,
+      "end": 54.02,
+      "type": "word"
+    },
+    {
+      "text": "than",
+      "start": 54.02,
+      "end": 54.2,
+      "type": "word"
+    },
+    {
+      "text": "10",
+      "start": 54.2,
+      "end": 54.44,
+      "type": "word"
+    },
+    {
+      "text": "minutes",
+      "start": 54.44,
+      "end": 54.68,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 54.68,
+      "end": 54.92,
+      "type": "word"
+    },
+    {
+      "text": "downtown",
+      "start": 54.92,
+      "end": 55.16,
+      "type": "word"
+    },
+    {
+      "text": "Statesville",
+      "start": 55.16,
+      "end": 55.82,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 55.82,
+      "end": 56.22,
+      "type": "word"
+    },
+    {
+      "text": "every",
+      "start": 56.22,
+      "end": 56.42,
+      "type": "word"
+    },
+    {
+      "text": "essential",
+      "start": 56.42,
+      "end": 56.76,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 56.76,
+      "end": 57.22,
+      "type": "word"
+    },
+    {
+      "text": "could",
+      "start": 57.22,
+      "end": 57.4,
+      "type": "word"
+    },
+    {
+      "text": "need.",
+      "start": 57.4,
+      "end": 57.56,
+      "type": "word"
+    }
+  ],
+  "_engine": "whisper",
+  "_source": "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\video\\7666068810130148639.mp4"
+}

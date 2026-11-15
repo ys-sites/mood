@@ -1,0 +1,148 @@
+{
+  "id": "7662713064252329246",
+  "duration_s": 65.53,
+  "fps": 30.0,
+  "width": 720,
+  "height": 1280,
+  "cuts": [
+    0.733,
+    3.2,
+    4.933,
+    7.633,
+    8.6,
+    13.467,
+    15.067,
+    18.0,
+    18.633,
+    19.033,
+    19.6,
+    20.5,
+    25.267,
+    25.733,
+    26.933,
+    32.2,
+    36.5,
+    40.667,
+    43.7,
+    48.067,
+    48.4,
+    51.033,
+    54.467,
+    56.367,
+    61.433,
+    64.933
+  ],
+  "shots_s": [
+    0.733,
+    2.467,
+    1.733,
+    2.7,
+    0.967,
+    4.867,
+    1.6,
+    2.933,
+    0.633,
+    0.4,
+    0.567,
+    0.9,
+    4.767,
+    0.466,
+    1.2,
+    5.267,
+    4.3,
+    4.167,
+    3.033,
+    4.367,
+    0.333,
+    2.633,
+    3.434,
+    1.9,
+    5.066,
+    3.5,
+    0.6
+  ],
+  "cuts_per_10s": 3.97,
+  "median_shot_s": 2.47,
+  "zooms": [
+    {
+      "t": 10.167,
+      "kind": "push",
+      "scale": 0.73,
+      "duration_s": 2.5,
+      "on_cut": false
+    },
+    {
+      "t": 16.133,
+      "kind": "push",
+      "scale": 0.92,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 34.267,
+      "kind": "push",
+      "scale": 1.2,
+      "duration_s": 1.5,
+      "on_cut": false
+    },
+    {
+      "t": 35.0,
+      "kind": "punch",
+      "scale": 1.2,
+      "duration_s": 0.0,
+      "on_cut": false
+    },
+    {
+      "t": 44.267,
+      "kind": "push",
+      "scale": 0.96,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 46.267,
+      "kind": "push",
+      "scale": 0.94,
+      "duration_s": 1.5,
+      "on_cut": false
+    },
+    {
+      "t": 52.567,
+      "kind": "push",
+      "scale": 0.96,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 55.033,
+      "kind": "push",
+      "scale": 0.76,
+      "duration_s": 1.0,
+      "on_cut": false
+    },
+    {
+      "t": 55.6,
+      "kind": "punch",
+      "scale": 0.8,
+      "duration_s": 0.0,
+      "on_cut": false
+    },
+    {
+      "t": 56.933,
+      "kind": "push",
+      "scale": 0.96,
+      "duration_s": 1.0,
+      "on_cut": false
+    }
+  ],
+  "zooms_per_min": 9.2,
+  "sheets": [
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7662713064252329246-01.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7662713064252329246-02.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7662713064252329246-03.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7662713064252329246-04.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7662713064252329246-05.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7662713064252329246-06.jpg",
+    "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\sheets\\7662713064252329246-07.jpg"
+  ]
+}

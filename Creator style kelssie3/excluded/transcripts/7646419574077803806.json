@@ -1,0 +1,747 @@
+{
+  "text": "Lake View is from your back patio. On half an acre, I'd stay here for a while. Located in Crystal Falls Lake Community, this property has three bedrooms, two and a half bathroom, and a full -size bonus room that can function as a fourth bedroom and an office. You don't have to compromise here when it comes to needing space for your pups or wanting to be on Lake Hickory in five minutes. You are in the most ideal location if you love the lake. Less than five minutes to Whittingburg Boating Access and Nearly Constructed Sandbar Marine and Grill, with direct access to 127 that leaves you right to downtown Hickory.",
+  "language_code": "en",
+  "audio_duration_secs": 73.632,
+  "words": [
+    {
+      "text": "Lake",
+      "start": 0.0,
+      "end": 0.36,
+      "type": "word"
+    },
+    {
+      "text": "View",
+      "start": 0.36,
+      "end": 0.56,
+      "type": "word"
+    },
+    {
+      "text": "is",
+      "start": 0.56,
+      "end": 0.78,
+      "type": "word"
+    },
+    {
+      "text": "from",
+      "start": 0.78,
+      "end": 0.9,
+      "type": "word"
+    },
+    {
+      "text": "your",
+      "start": 0.9,
+      "end": 0.96,
+      "type": "word"
+    },
+    {
+      "text": "back",
+      "start": 0.96,
+      "end": 1.16,
+      "type": "word"
+    },
+    {
+      "text": "patio.",
+      "start": 1.16,
+      "end": 1.52,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 1.52,
+      "end": 1.88,
+      "type": "spacing"
+    },
+    {
+      "text": "On",
+      "start": 1.88,
+      "end": 1.92,
+      "type": "word"
+    },
+    {
+      "text": "half",
+      "start": 1.92,
+      "end": 2.14,
+      "type": "word"
+    },
+    {
+      "text": "an",
+      "start": 2.14,
+      "end": 2.24,
+      "type": "word"
+    },
+    {
+      "text": "acre,",
+      "start": 2.24,
+      "end": 2.4,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 2.4,
+      "end": 2.8,
+      "type": "spacing"
+    },
+    {
+      "text": "I'd",
+      "start": 2.8,
+      "end": 2.98,
+      "type": "word"
+    },
+    {
+      "text": "stay",
+      "start": 2.98,
+      "end": 3.08,
+      "type": "word"
+    },
+    {
+      "text": "here",
+      "start": 3.08,
+      "end": 3.22,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 3.22,
+      "end": 3.34,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 3.34,
+      "end": 3.44,
+      "type": "word"
+    },
+    {
+      "text": "while.",
+      "start": 3.44,
+      "end": 3.58,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 3.58,
+      "end": 15.44,
+      "type": "spacing"
+    },
+    {
+      "text": "Located",
+      "start": 15.44,
+      "end": 15.88,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 15.88,
+      "end": 16.12,
+      "type": "word"
+    },
+    {
+      "text": "Crystal",
+      "start": 16.12,
+      "end": 16.46,
+      "type": "word"
+    },
+    {
+      "text": "Falls",
+      "start": 16.46,
+      "end": 16.76,
+      "type": "word"
+    },
+    {
+      "text": "Lake",
+      "start": 16.76,
+      "end": 17.16,
+      "type": "word"
+    },
+    {
+      "text": "Community,",
+      "start": 17.16,
+      "end": 17.56,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 17.56,
+      "end": 17.8,
+      "type": "spacing"
+    },
+    {
+      "text": "this",
+      "start": 17.8,
+      "end": 17.96,
+      "type": "word"
+    },
+    {
+      "text": "property",
+      "start": 17.96,
+      "end": 18.24,
+      "type": "word"
+    },
+    {
+      "text": "has",
+      "start": 18.24,
+      "end": 18.56,
+      "type": "word"
+    },
+    {
+      "text": "three",
+      "start": 18.56,
+      "end": 18.84,
+      "type": "word"
+    },
+    {
+      "text": "bedrooms,",
+      "start": 18.84,
+      "end": 19.22,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 19.22,
+      "end": 19.44,
+      "type": "spacing"
+    },
+    {
+      "text": "two",
+      "start": 19.44,
+      "end": 19.54,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 19.54,
+      "end": 19.64,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 19.64,
+      "end": 19.72,
+      "type": "word"
+    },
+    {
+      "text": "half",
+      "start": 19.72,
+      "end": 19.98,
+      "type": "word"
+    },
+    {
+      "text": "bathroom,",
+      "start": 19.98,
+      "end": 20.36,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 20.36,
+      "end": 20.42,
+      "type": "spacing"
+    },
+    {
+      "text": "and",
+      "start": 20.42,
+      "end": 20.5,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 20.5,
+      "end": 20.62,
+      "type": "word"
+    },
+    {
+      "text": "full",
+      "start": 20.62,
+      "end": 20.78,
+      "type": "word"
+    },
+    {
+      "text": "-size",
+      "start": 20.78,
+      "end": 21.0,
+      "type": "word"
+    },
+    {
+      "text": "bonus",
+      "start": 21.0,
+      "end": 21.38,
+      "type": "word"
+    },
+    {
+      "text": "room",
+      "start": 21.38,
+      "end": 21.68,
+      "type": "word"
+    },
+    {
+      "text": "that",
+      "start": 21.68,
+      "end": 21.84,
+      "type": "word"
+    },
+    {
+      "text": "can",
+      "start": 21.84,
+      "end": 21.94,
+      "type": "word"
+    },
+    {
+      "text": "function",
+      "start": 21.94,
+      "end": 22.22,
+      "type": "word"
+    },
+    {
+      "text": "as",
+      "start": 22.22,
+      "end": 22.54,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 22.54,
+      "end": 22.68,
+      "type": "word"
+    },
+    {
+      "text": "fourth",
+      "start": 22.68,
+      "end": 22.82,
+      "type": "word"
+    },
+    {
+      "text": "bedroom",
+      "start": 22.82,
+      "end": 23.26,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 23.26,
+      "end": 23.9,
+      "type": "word"
+    },
+    {
+      "text": "an",
+      "start": 23.9,
+      "end": 24.2,
+      "type": "word"
+    },
+    {
+      "text": "office.",
+      "start": 24.2,
+      "end": 24.42,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 24.42,
+      "end": 31.44,
+      "type": "spacing"
+    },
+    {
+      "text": "You",
+      "start": 31.44,
+      "end": 31.84,
+      "type": "word"
+    },
+    {
+      "text": "don't",
+      "start": 31.84,
+      "end": 32.08,
+      "type": "word"
+    },
+    {
+      "text": "have",
+      "start": 32.08,
+      "end": 32.24,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 32.24,
+      "end": 32.38,
+      "type": "word"
+    },
+    {
+      "text": "compromise",
+      "start": 32.38,
+      "end": 32.68,
+      "type": "word"
+    },
+    {
+      "text": "here",
+      "start": 32.68,
+      "end": 33.12,
+      "type": "word"
+    },
+    {
+      "text": "when",
+      "start": 33.12,
+      "end": 33.3,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 33.3,
+      "end": 33.4,
+      "type": "word"
+    },
+    {
+      "text": "comes",
+      "start": 33.4,
+      "end": 33.62,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 33.62,
+      "end": 33.82,
+      "type": "word"
+    },
+    {
+      "text": "needing",
+      "start": 33.82,
+      "end": 33.94,
+      "type": "word"
+    },
+    {
+      "text": "space",
+      "start": 33.94,
+      "end": 34.2,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 34.2,
+      "end": 34.44,
+      "type": "word"
+    },
+    {
+      "text": "your",
+      "start": 34.44,
+      "end": 34.54,
+      "type": "word"
+    },
+    {
+      "text": "pups",
+      "start": 34.54,
+      "end": 34.88,
+      "type": "word"
+    },
+    {
+      "text": "or",
+      "start": 34.88,
+      "end": 35.02,
+      "type": "word"
+    },
+    {
+      "text": "wanting",
+      "start": 35.02,
+      "end": 35.2,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 35.2,
+      "end": 35.32,
+      "type": "word"
+    },
+    {
+      "text": "be",
+      "start": 35.32,
+      "end": 35.36,
+      "type": "word"
+    },
+    {
+      "text": "on",
+      "start": 35.36,
+      "end": 35.5,
+      "type": "word"
+    },
+    {
+      "text": "Lake",
+      "start": 35.5,
+      "end": 35.66,
+      "type": "word"
+    },
+    {
+      "text": "Hickory",
+      "start": 35.66,
+      "end": 35.96,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 35.96,
+      "end": 36.14,
+      "type": "word"
+    },
+    {
+      "text": "five",
+      "start": 36.14,
+      "end": 36.36,
+      "type": "word"
+    },
+    {
+      "text": "minutes.",
+      "start": 36.36,
+      "end": 36.6,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 36.6,
+      "end": 51.76,
+      "type": "spacing"
+    },
+    {
+      "text": "You",
+      "start": 51.76,
+      "end": 52.16,
+      "type": "word"
+    },
+    {
+      "text": "are",
+      "start": 52.16,
+      "end": 52.36,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 52.36,
+      "end": 52.48,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 52.48,
+      "end": 52.58,
+      "type": "word"
+    },
+    {
+      "text": "most",
+      "start": 52.58,
+      "end": 52.9,
+      "type": "word"
+    },
+    {
+      "text": "ideal",
+      "start": 52.9,
+      "end": 53.2,
+      "type": "word"
+    },
+    {
+      "text": "location",
+      "start": 53.2,
+      "end": 53.78,
+      "type": "word"
+    },
+    {
+      "text": "if",
+      "start": 53.78,
+      "end": 54.06,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 54.06,
+      "end": 54.14,
+      "type": "word"
+    },
+    {
+      "text": "love",
+      "start": 54.14,
+      "end": 54.38,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 54.38,
+      "end": 54.56,
+      "type": "word"
+    },
+    {
+      "text": "lake.",
+      "start": 54.56,
+      "end": 54.84,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 54.84,
+      "end": 55.0,
+      "type": "spacing"
+    },
+    {
+      "text": "Less",
+      "start": 55.0,
+      "end": 55.16,
+      "type": "word"
+    },
+    {
+      "text": "than",
+      "start": 55.16,
+      "end": 55.34,
+      "type": "word"
+    },
+    {
+      "text": "five",
+      "start": 55.34,
+      "end": 55.6,
+      "type": "word"
+    },
+    {
+      "text": "minutes",
+      "start": 55.6,
+      "end": 55.8,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 55.8,
+      "end": 56.04,
+      "type": "word"
+    },
+    {
+      "text": "Whittingburg",
+      "start": 56.04,
+      "end": 56.54,
+      "type": "word"
+    },
+    {
+      "text": "Boating",
+      "start": 56.54,
+      "end": 56.94,
+      "type": "word"
+    },
+    {
+      "text": "Access",
+      "start": 56.94,
+      "end": 57.26,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 57.26,
+      "end": 57.62,
+      "type": "word"
+    },
+    {
+      "text": "Nearly",
+      "start": 57.62,
+      "end": 57.8,
+      "type": "word"
+    },
+    {
+      "text": "Constructed",
+      "start": 57.8,
+      "end": 58.42,
+      "type": "word"
+    },
+    {
+      "text": "Sandbar",
+      "start": 58.42,
+      "end": 58.86,
+      "type": "word"
+    },
+    {
+      "text": "Marine",
+      "start": 58.86,
+      "end": 59.12,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 59.12,
+      "end": 59.3,
+      "type": "word"
+    },
+    {
+      "text": "Grill,",
+      "start": 59.3,
+      "end": 59.48,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 59.48,
+      "end": 59.82,
+      "type": "spacing"
+    },
+    {
+      "text": "with",
+      "start": 59.82,
+      "end": 59.96,
+      "type": "word"
+    },
+    {
+      "text": "direct",
+      "start": 59.96,
+      "end": 60.26,
+      "type": "word"
+    },
+    {
+      "text": "access",
+      "start": 60.26,
+      "end": 60.74,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 60.74,
+      "end": 61.0,
+      "type": "word"
+    },
+    {
+      "text": "127",
+      "start": 61.0,
+      "end": 61.44,
+      "type": "word"
+    },
+    {
+      "text": "that",
+      "start": 61.44,
+      "end": 61.98,
+      "type": "word"
+    },
+    {
+      "text": "leaves",
+      "start": 61.98,
+      "end": 62.16,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 62.16,
+      "end": 62.32,
+      "type": "word"
+    },
+    {
+      "text": "right",
+      "start": 62.32,
+      "end": 62.58,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 62.58,
+      "end": 62.86,
+      "type": "word"
+    },
+    {
+      "text": "downtown",
+      "start": 62.86,
+      "end": 63.2,
+      "type": "word"
+    },
+    {
+      "text": "Hickory.",
+      "start": 63.2,
+      "end": 63.52,
+      "type": "word"
+    }
+  ],
+  "_engine": "whisper",
+  "_source": "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\video\\7646419574077803806.mp4"
+}

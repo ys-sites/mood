@@ -1,0 +1,217 @@
+[
+  {
+    "id": "7654553892700605727",
+    "views": 447600,
+    "vs_median": 4.25,
+    "duration_s": 37.0,
+    "words": 140,
+    "wpm": 227,
+    "wpm_thirds": [
+      204,
+      238,
+      248
+    ],
+    "first_word_at": 0.0,
+    "sentences": 6,
+    "sent_len_median": 23.0,
+    "sent_len_range": [
+      9,
+      39
+    ],
+    "pause_median_ms": 240,
+    "pauses_over_300ms": 1,
+    "pauses_per_min": 1.6,
+    "longest_pause_s": 0.3,
+    "filler_rate_per_100w": 0.0,
+    "hype_hits": {},
+    "you": 1,
+    "i": 9,
+    "we": 0,
+    "you_per_100w": 0.7,
+    "top_ngrams": [
+      "some of the"
+    ],
+    "hook_text": "Last year I started doing these quarterly recap and",
+    "close_text": "been one of a kind. I'm even more excited for what God has planned for this next quarter, and I want to thank you for being a part of it."
+  },
+  {
+    "id": "7541010258676763935",
+    "views": 169000,
+    "vs_median": 1.6,
+    "duration_s": 15.1,
+    "words": 59,
+    "wpm": 235,
+    "wpm_thirds": [
+      227,
+      239,
+      239
+    ],
+    "first_word_at": 0.0,
+    "sentences": 4,
+    "sent_len_median": 16.0,
+    "sent_len_range": [
+      7,
+      20
+    ],
+    "pause_median_ms": 480,
+    "pauses_over_300ms": 6,
+    "pauses_per_min": 23.9,
+    "longest_pause_s": 0.62,
+    "filler_rate_per_100w": 1.7,
+    "hype_hits": {},
+    "you": 2,
+    "i": 5,
+    "we": 0,
+    "you_per_100w": 3.4,
+    "top_ngrams": [],
+    "hook_text": "Before you hire a realtor, don't just take their word for it.",
+    "close_text": "I serve. Click the link in my bio, scroll down to reviews, and let's talk about how I can help you next."
+  },
+  {
+    "id": "7623745040195603742",
+    "views": 116800,
+    "vs_median": 1.11,
+    "duration_s": 46.1,
+    "words": 147,
+    "wpm": 191,
+    "wpm_thirds": [
+      195,
+      203,
+      180
+    ],
+    "first_word_at": 0.0,
+    "sentences": 8,
+    "sent_len_median": 15.5,
+    "sent_len_range": [
+      8,
+      37
+    ],
+    "pause_median_ms": 340,
+    "pauses_over_300ms": 14,
+    "pauses_per_min": 18.2,
+    "longest_pause_s": 0.52,
+    "filler_rate_per_100w": 1.4,
+    "hype_hits": {},
+    "you": 6,
+    "i": 9,
+    "we": 0,
+    "you_per_100w": 4.1,
+    "top_ngrams": [
+      "for my clients"
+    ],
+    "hook_text": "My goal has always been to serve others. That's the foundation",
+    "close_text": "phone calls, and me pouring everything I have into the best possible strategy for you and your family."
+  },
+  {
+    "id": "7680171892296125727",
+    "views": 93800,
+    "vs_median": 0.89,
+    "duration_s": 44.0,
+    "words": 153,
+    "wpm": 208,
+    "wpm_thirds": [
+      229,
+      172,
+      233
+    ],
+    "first_word_at": 0.0,
+    "sentences": 9,
+    "sent_len_median": 17,
+    "sent_len_range": [
+      9,
+      26
+    ],
+    "pause_median_ms": 310,
+    "pauses_over_300ms": 13,
+    "pauses_per_min": 17.7,
+    "longest_pause_s": 0.6,
+    "filler_rate_per_100w": 0.0,
+    "hype_hits": {},
+    "you": 8,
+    "i": 9,
+    "we": 0,
+    "you_per_100w": 5.2,
+    "top_ngrams": [],
+    "hook_text": "Let me be the first to say your property deserves the investment",
+    "close_text": "I would be honored to get to know you and serve you. Whether you're buying, building, or selling, click the link in my bio."
+  },
+  {
+    "id": "7655321460763938078",
+    "views": 58500,
+    "vs_median": 0.56,
+    "duration_s": 40.0,
+    "words": 136,
+    "wpm": 204,
+    "wpm_thirds": [
+      203,
+      230,
+      180
+    ],
+    "first_word_at": 0.0,
+    "sentences": 7,
+    "sent_len_median": 18,
+    "sent_len_range": [
+      13,
+      30
+    ],
+    "pause_median_ms": 180,
+    "pauses_over_300ms": 0,
+    "pauses_per_min": 0.0,
+    "longest_pause_s": 0.24,
+    "filler_rate_per_100w": 2.2,
+    "hype_hits": {},
+    "you": 12,
+    "i": 0,
+    "we": 0,
+    "you_per_100w": 8.8,
+    "top_ngrams": [
+      "your mindset around",
+      "mindset around opportunity",
+      "around opportunity is",
+      "opportunity is either",
+      "is either expanding",
+      "either expanding your",
+      "expanding your business",
+      "your business or",
+      "business or quietly",
+      "or quietly shrinking",
+      "quietly shrinking it",
+      "the ones that"
+    ],
+    "hook_text": "Your mindset around opportunity is either expanding your business",
+    "close_text": "quietly shrinking it. Stop waiting for the opportunity you pictured and start saying yes to the one God actually sent."
+  },
+  {
+    "id": "7662713064252329246",
+    "views": 27900,
+    "vs_median": 0.26,
+    "duration_s": 65.5,
+    "words": 203,
+    "wpm": 186,
+    "wpm_thirds": [
+      192,
+      162,
+      214
+    ],
+    "first_word_at": 0.0,
+    "sentences": 12,
+    "sent_len_median": 17.5,
+    "sent_len_range": [
+      1,
+      32
+    ],
+    "pause_median_ms": 290,
+    "pauses_over_300ms": 10,
+    "pauses_per_min": 9.2,
+    "longest_pause_s": 0.5,
+    "filler_rate_per_100w": 1.5,
+    "hype_hits": {},
+    "you": 5,
+    "i": 8,
+    "we": 1,
+    "you_per_100w": 2.5,
+    "top_ngrams": [],
+    "hook_text": "Welcome! I'm Kelsey Blevins, and here is something that",
+    "close_text": "seriously considering selling. Either way, I'd love to have a conversation with you about how we can make that happen together."
+  }
+]

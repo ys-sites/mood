@@ -1,0 +1,15 @@
+{
+  "text": "Ready?",
+  "language_code": "en",
+  "audio_duration_secs": 35.505,
+  "words": [
+    {
+      "text": "Ready?",
+      "start": 0.0,
+      "end": 2.28,
+      "type": "word"
+    }
+  ],
+  "_engine": "whisper",
+  "_source": "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\video\\7686235516710276383.mp4"
+}

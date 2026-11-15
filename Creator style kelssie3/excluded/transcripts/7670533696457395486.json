@@ -1,0 +1,603 @@
+{
+  "text": "Any time I see a fence like this, it just makes me want to put on my cowgirl hat and show you my nose listing. The moment you turn in this long, beautiful driveway welcomes you home. You are within walking distance to shopping, dining, and 15 minutes to uptown Charlottes. All the culture, career, and entertainment of the city is within reach. Real privacy, real space, and no HOA telling you what you can and cannot do with your own land. Contacting today for more information.",
+  "language_code": "en",
+  "audio_duration_secs": 57.982,
+  "words": [
+    {
+      "text": "Any",
+      "start": 0.0,
+      "end": 0.32,
+      "type": "word"
+    },
+    {
+      "text": "time",
+      "start": 0.32,
+      "end": 0.58,
+      "type": "word"
+    },
+    {
+      "text": "I",
+      "start": 0.58,
+      "end": 0.88,
+      "type": "word"
+    },
+    {
+      "text": "see",
+      "start": 0.88,
+      "end": 1.06,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 1.06,
+      "end": 1.16,
+      "type": "word"
+    },
+    {
+      "text": "fence",
+      "start": 1.16,
+      "end": 1.28,
+      "type": "word"
+    },
+    {
+      "text": "like",
+      "start": 1.28,
+      "end": 1.5,
+      "type": "word"
+    },
+    {
+      "text": "this,",
+      "start": 1.5,
+      "end": 1.82,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 1.82,
+      "end": 1.84,
+      "type": "spacing"
+    },
+    {
+      "text": "it",
+      "start": 1.84,
+      "end": 2.0,
+      "type": "word"
+    },
+    {
+      "text": "just",
+      "start": 2.0,
+      "end": 2.16,
+      "type": "word"
+    },
+    {
+      "text": "makes",
+      "start": 2.16,
+      "end": 2.34,
+      "type": "word"
+    },
+    {
+      "text": "me",
+      "start": 2.34,
+      "end": 2.52,
+      "type": "word"
+    },
+    {
+      "text": "want",
+      "start": 2.52,
+      "end": 2.66,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 2.66,
+      "end": 2.76,
+      "type": "word"
+    },
+    {
+      "text": "put",
+      "start": 2.76,
+      "end": 2.94,
+      "type": "word"
+    },
+    {
+      "text": "on",
+      "start": 2.94,
+      "end": 3.06,
+      "type": "word"
+    },
+    {
+      "text": "my",
+      "start": 3.06,
+      "end": 3.24,
+      "type": "word"
+    },
+    {
+      "text": "cowgirl",
+      "start": 3.24,
+      "end": 3.58,
+      "type": "word"
+    },
+    {
+      "text": "hat",
+      "start": 3.58,
+      "end": 3.9,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 3.9,
+      "end": 4.72,
+      "type": "word"
+    },
+    {
+      "text": "show",
+      "start": 4.72,
+      "end": 4.9,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 4.9,
+      "end": 4.98,
+      "type": "word"
+    },
+    {
+      "text": "my",
+      "start": 4.98,
+      "end": 5.1,
+      "type": "word"
+    },
+    {
+      "text": "nose",
+      "start": 5.1,
+      "end": 5.26,
+      "type": "word"
+    },
+    {
+      "text": "listing.",
+      "start": 5.26,
+      "end": 5.62,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 5.62,
+      "end": 9.9,
+      "type": "spacing"
+    },
+    {
+      "text": "The",
+      "start": 9.9,
+      "end": 10.3,
+      "type": "word"
+    },
+    {
+      "text": "moment",
+      "start": 10.3,
+      "end": 10.52,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 10.52,
+      "end": 10.68,
+      "type": "word"
+    },
+    {
+      "text": "turn",
+      "start": 10.68,
+      "end": 10.9,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 10.9,
+      "end": 11.14,
+      "type": "word"
+    },
+    {
+      "text": "this",
+      "start": 11.14,
+      "end": 11.48,
+      "type": "word"
+    },
+    {
+      "text": "long,",
+      "start": 11.48,
+      "end": 11.8,
+      "type": "word"
+    },
+    {
+      "text": "beautiful",
+      "start": 11.8,
+      "end": 12.16,
+      "type": "word"
+    },
+    {
+      "text": "driveway",
+      "start": 12.16,
+      "end": 12.54,
+      "type": "word"
+    },
+    {
+      "text": "welcomes",
+      "start": 12.54,
+      "end": 13.18,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 13.18,
+      "end": 13.34,
+      "type": "word"
+    },
+    {
+      "text": "home.",
+      "start": 13.34,
+      "end": 13.52,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 13.52,
+      "end": 25.22,
+      "type": "spacing"
+    },
+    {
+      "text": "You",
+      "start": 25.22,
+      "end": 25.74,
+      "type": "word"
+    },
+    {
+      "text": "are",
+      "start": 25.74,
+      "end": 25.88,
+      "type": "word"
+    },
+    {
+      "text": "within",
+      "start": 25.88,
+      "end": 26.2,
+      "type": "word"
+    },
+    {
+      "text": "walking",
+      "start": 26.2,
+      "end": 26.56,
+      "type": "word"
+    },
+    {
+      "text": "distance",
+      "start": 26.56,
+      "end": 26.98,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 26.98,
+      "end": 27.3,
+      "type": "word"
+    },
+    {
+      "text": "shopping,",
+      "start": 27.3,
+      "end": 27.66,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 27.66,
+      "end": 27.92,
+      "type": "spacing"
+    },
+    {
+      "text": "dining,",
+      "start": 27.92,
+      "end": 28.28,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 28.28,
+      "end": 28.54,
+      "type": "spacing"
+    },
+    {
+      "text": "and",
+      "start": 28.54,
+      "end": 28.64,
+      "type": "word"
+    },
+    {
+      "text": "15",
+      "start": 28.64,
+      "end": 29.0,
+      "type": "word"
+    },
+    {
+      "text": "minutes",
+      "start": 29.0,
+      "end": 29.34,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 29.34,
+      "end": 29.54,
+      "type": "word"
+    },
+    {
+      "text": "uptown",
+      "start": 29.54,
+      "end": 29.76,
+      "type": "word"
+    },
+    {
+      "text": "Charlottes.",
+      "start": 29.76,
+      "end": 30.34,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 30.34,
+      "end": 30.38,
+      "type": "spacing"
+    },
+    {
+      "text": "All",
+      "start": 30.38,
+      "end": 30.5,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 30.5,
+      "end": 30.62,
+      "type": "word"
+    },
+    {
+      "text": "culture,",
+      "start": 30.62,
+      "end": 30.94,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 30.94,
+      "end": 31.14,
+      "type": "spacing"
+    },
+    {
+      "text": "career,",
+      "start": 31.14,
+      "end": 31.4,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 31.4,
+      "end": 31.56,
+      "type": "spacing"
+    },
+    {
+      "text": "and",
+      "start": 31.56,
+      "end": 31.7,
+      "type": "word"
+    },
+    {
+      "text": "entertainment",
+      "start": 31.7,
+      "end": 31.96,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 31.96,
+      "end": 32.26,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 32.26,
+      "end": 32.36,
+      "type": "word"
+    },
+    {
+      "text": "city",
+      "start": 32.36,
+      "end": 32.6,
+      "type": "word"
+    },
+    {
+      "text": "is",
+      "start": 32.6,
+      "end": 32.92,
+      "type": "word"
+    },
+    {
+      "text": "within",
+      "start": 32.92,
+      "end": 33.18,
+      "type": "word"
+    },
+    {
+      "text": "reach.",
+      "start": 33.18,
+      "end": 33.48,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 33.48,
+      "end": 46.76,
+      "type": "spacing"
+    },
+    {
+      "text": "Real",
+      "start": 46.76,
+      "end": 47.24,
+      "type": "word"
+    },
+    {
+      "text": "privacy,",
+      "start": 47.24,
+      "end": 47.72,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 47.72,
+      "end": 48.0,
+      "type": "spacing"
+    },
+    {
+      "text": "real",
+      "start": 48.0,
+      "end": 48.18,
+      "type": "word"
+    },
+    {
+      "text": "space,",
+      "start": 48.18,
+      "end": 48.54,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 48.54,
+      "end": 48.86,
+      "type": "spacing"
+    },
+    {
+      "text": "and",
+      "start": 48.86,
+      "end": 48.88,
+      "type": "word"
+    },
+    {
+      "text": "no",
+      "start": 48.88,
+      "end": 49.02,
+      "type": "word"
+    },
+    {
+      "text": "HOA",
+      "start": 49.02,
+      "end": 49.52,
+      "type": "word"
+    },
+    {
+      "text": "telling",
+      "start": 49.52,
+      "end": 49.78,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 49.78,
+      "end": 49.92,
+      "type": "word"
+    },
+    {
+      "text": "what",
+      "start": 49.92,
+      "end": 50.04,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 50.04,
+      "end": 50.16,
+      "type": "word"
+    },
+    {
+      "text": "can",
+      "start": 50.16,
+      "end": 50.44,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 50.44,
+      "end": 50.64,
+      "type": "word"
+    },
+    {
+      "text": "cannot",
+      "start": 50.64,
+      "end": 50.88,
+      "type": "word"
+    },
+    {
+      "text": "do",
+      "start": 50.88,
+      "end": 51.14,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 51.14,
+      "end": 51.36,
+      "type": "word"
+    },
+    {
+      "text": "your",
+      "start": 51.36,
+      "end": 51.48,
+      "type": "word"
+    },
+    {
+      "text": "own",
+      "start": 51.48,
+      "end": 51.64,
+      "type": "word"
+    },
+    {
+      "text": "land.",
+      "start": 51.64,
+      "end": 51.88,
+      "type": "word"
+    },
+    {
+      "text": " ",
+      "start": 51.88,
+      "end": 52.06,
+      "type": "spacing"
+    },
+    {
+      "text": "Contacting",
+      "start": 52.06,
+      "end": 52.52,
+      "type": "word"
+    },
+    {
+      "text": "today",
+      "start": 52.52,
+      "end": 52.74,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 52.74,
+      "end": 53.02,
+      "type": "word"
+    },
+    {
+      "text": "more",
+      "start": 53.02,
+      "end": 53.16,
+      "type": "word"
+    },
+    {
+      "text": "information.",
+      "start": 53.16,
+      "end": 53.52,
+      "type": "word"
+    }
+  ],
+  "_engine": "whisper",
+  "_source": "C:\\Users\\Sharafath\\Desktop\\ai-video-editor\\creator-teardowns\\kelssie3\\video\\7670533696457395486.mp4"
+}
