@@ -1,5 +1,4 @@
 import { DECISIONS } from '../data/proposal';
-import { Logo } from './Logo';
 import { Section } from './Section';
 
 export function Decision() {
@@ -35,15 +34,6 @@ export function Decision() {
         >
           Print or save as PDF
         </button>
-      </div>
-
-      <div className="mt-20 flex flex-col items-start gap-6 border-t border-line pt-12 sm:flex-row sm:items-center sm:justify-between">
-        <Logo className="h-14" />
-        <p className="font-poster text-[44px] leading-[0.95] text-ink sm:text-right sm:text-[56px]">
-          Buy one. Give one.
-          <br />
-          <span className="text-muted">Spread the mood.</span>
-        </p>
       </div>
     </Section>
   );
