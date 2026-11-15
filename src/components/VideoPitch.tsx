@@ -14,14 +14,21 @@ function Outline({ items }: { items: readonly { t: string; text: string }[] }) {
   );
 }
 
-function Pending({ ratio, label }: { ratio: string; label: string }) {
+function Player({ src, poster, captions, ratio, label }: { src: string; poster: string; captions: string; ratio: string; label: string }) {
   return (
-    <div className={`flex ${ratio} w-full items-center justify-center border border-dashed border-[#C8C8C8] bg-paper p-6 text-center`}>
-      <p className="text-[15px] text-muted">
-        <span className="block font-semibold text-ink">{label}</span>
-        In production. Not yet recorded.
-      </p>
-    </div>
+    <figure>
+      <video
+        className={`block w-full ${ratio} bg-black`}
+        controls
+        playsInline
+        preload="metadata"
+        poster={poster}
+      >
+        <source src={src} type="video/mp4" />
+        <track kind="captions" src={captions} srcLang="en" label="English" default />
+      </video>
+      <figcaption className="mt-2 text-[13px] text-muted">{label}</figcaption>
+    </figure>
   );
 }
 
@@ -32,19 +39,31 @@ export function VideoPitch() {
       number="08"
       label="The video pitch"
       title="Watch the campaign concept."
-      intro="Two videos are planned. Neither has been filmed yet, so the outlines below show what each one will cover. We suggest the owner presents both, as in the restaurant’s current Reels."
+      intro="Two concept cuts: a 5-minute owner pitch and a 60-second vertical trailer. Both use motion graphics, imagery from the concept poster and a temporary computer voice. Restaurant footage and the owner’s own voice come after approval. Every figure on screen is illustrative."
     >
       <div className="grid gap-12 sm:grid-cols-5 sm:gap-10">
         <div className="sm:col-span-3">
-          <Pending ratio="aspect-video" label="5-minute owner pitch" />
-          <h3 className="mt-6 text-[15px] font-semibold text-ink">Planned outline</h3>
+          <Player
+            src="/videos/owner-pitch-5min-720p.mp4"
+            poster="/videos/owner-pitch-poster.jpg"
+            captions="/videos/owner-pitch-5min.en.vtt"
+            ratio="aspect-video"
+            label="5-minute owner pitch · concept cut · temporary narration"
+          />
+          <h3 className="mt-6 text-[15px] font-semibold text-ink">Outline</h3>
           <Outline items={PITCH_VIDEO_OUTLINE} />
         </div>
         <div className="sm:col-span-2">
-          <div className="max-w-[10rem]">
-            <Pending ratio="aspect-[9/16]" label="60-second trailer" />
+          <div className="max-w-[18rem]">
+            <Player
+              src="/videos/campaign-trailer-60s.mp4"
+              poster="/videos/campaign-trailer-poster.jpg"
+              captions="/videos/campaign-trailer-60s.en.vtt"
+              ratio="aspect-[9/16]"
+              label="60-second trailer · French first · concept, not live"
+            />
           </div>
-          <h3 className="mt-6 text-[15px] font-semibold text-ink">Planned outline</h3>
+          <h3 className="mt-6 text-[15px] font-semibold text-ink">Outline</h3>
           <Outline items={TRAILER_OUTLINE} />
         </div>
       </div>

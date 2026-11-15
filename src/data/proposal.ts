@@ -135,20 +135,26 @@ export const CREATIVE_PIECES = [
 ] as const;
 
 export const PITCH_VIDEO_OUTLINE = [
-  { t: '0:00', text: 'Why Christmas, and why this campaign' },
-  { t: '0:50', text: 'How the offer works for customers' },
-  { t: '1:45', text: 'Kitchen capacity and food safety' },
-  { t: '2:40', text: 'Creators and social media' },
-  { t: '3:45', text: 'Business partners and supporting offers' },
-  { t: '4:25', text: 'What we need from you' },
+  { t: '0:00', text: 'The Christmas opportunity: more than another promotion' },
+  { t: '0:25', text: 'The idea: the customer buys two, enjoys one, donates one' },
+  { t: '0:55', text: 'Shawarma Moods adds $1 per verified donated meal' },
+  { t: '1:25', text: 'The 1,000-meal challenge and tracker (simulated)' },
+  { t: '1:55', text: 'Community participation' },
+  { t: '2:25', text: 'Creators: voluntary, no promised reach' },
+  { t: '2:55', text: 'Future partners, e.g. Kin Academy (hypothetical)' },
+  { t: '3:25', text: 'Christmas week plan, Dec 23 target (proposed)' },
+  { t: '4:00', text: 'Business value, with no projections' },
+  { t: '4:35', text: 'The decision we are asking for' },
 ] as const;
 
 export const TRAILER_OUTLINE = [
-  { t: '0:00', text: 'Montréal street on a winter evening' },
-  { t: '0:08', text: 'Inside the kitchen: rotisserie, grill, garlic sauce' },
-  { t: '0:22', text: 'Two shawarmas wrapped. One for the customer, one set aside' },
-  { t: '0:38', text: '“+$1 from Shawarma Moods. Goal: 1,000 meals.”' },
-  { t: '0:48', text: 'Christmas week delivery. Ends on “Spread the mood.”' },
+  { t: '0:00', text: '“Un shawarma, c’est pas assez.” (This Christmas, one isn’t enough.)' },
+  { t: '0:08', text: 'Achète 2 · Savoure 1 · Donne 1 (paid by the customer)' },
+  { t: '0:18', text: '+1 $ from Shawarma Moods per verified donated meal' },
+  { t: '0:28', text: 'Goal: 1 000 meals (simulated counter)' },
+  { t: '0:38', text: 'Bring a friend, share the story' },
+  { t: '0:48', text: 'Prepared fresh for Christmas week (proposed)' },
+  { t: '0:54', text: '“Un pour toi. Un pour eux. Partage le mood.”' },
 ] as const;
 
 export const EXECUTION_STEPS = [
