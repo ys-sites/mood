@@ -44,7 +44,7 @@ export const MARKETING_STAGES = [
     stage: 'Stage 2',
     when: 'December 1–21',
     title: 'Customer participation',
-    text: 'Customers add the donated shawarma at the counter or online. Each one goes through its own POS button so the count can be checked. We publish the verified total every few days.',
+    text: 'Customers add the donated shawarma at the counter or online. Each one goes through its own POS button so the count can be checked. We publish the verified total every day.',
   },
   {
     stage: 'Stage 3',
@@ -56,7 +56,7 @@ export const MARKETING_STAGES = [
     stage: 'Stage 4',
     when: 'December 5–20',
     title: 'Business partnerships',
-    text: 'Local businesses can fund additional meals. For example, Kin Academy could fund one meal for each qualifying crash-course registration.',
+    text: 'Local businesses can fund additional meals. For example, Qin Academy could fund one meal for each qualifying crash-course registration.',
     note: 'Hypothetical example. No partnership has been agreed.',
   },
   {
@@ -134,6 +134,10 @@ export const CREATIVE_PIECES = [
   },
 ] as const;
 
+// Set to true to show the "Watch the campaign concept" video section again.
+// Hidden at the client's request (November 2026); the videos stay in public/videos/.
+export const SHOW_VIDEO = false;
+
 export const PITCH_VIDEO_OUTLINE = [
   { t: '0:00', text: 'The Christmas opportunity: more than another promotion' },
   { t: '0:25', text: 'The idea: the customer buys two, enjoys one, donates one' },
@@ -141,7 +145,7 @@ export const PITCH_VIDEO_OUTLINE = [
   { t: '1:25', text: 'The 1,000-meal challenge and tracker (simulated)' },
   { t: '1:55', text: 'Community participation' },
   { t: '2:25', text: 'Creators: voluntary, no promised reach' },
-  { t: '2:55', text: 'Future partners, e.g. Kin Academy (hypothetical)' },
+  { t: '2:55', text: 'Future partners, e.g. Qin Academy (hypothetical)' },
   { t: '3:25', text: 'Christmas week plan, Dec 23 target (proposed)' },
   { t: '4:00', text: 'Business value, with no projections' },
   { t: '4:35', text: 'The decision we are asking for' },

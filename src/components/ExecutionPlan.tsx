@@ -1,4 +1,4 @@
-import { EXECUTION_STEPS } from '../data/proposal';
+import { EXECUTION_STEPS, SHOW_VIDEO } from '../data/proposal';
 import { Section } from './Section';
 import { SHOW_FINANCIALS } from '../data/financialAssumptions';
 
@@ -6,7 +6,7 @@ export function ExecutionPlan() {
   return (
     <Section
       id="execution"
-      number={SHOW_FINANCIALS ? '10' : '09'}
+      number={String(8 + Number(SHOW_VIDEO) + Number(SHOW_FINANCIALS)).padStart(2, '0')}
       label="Execution plan"
       title="How we launch."
       intro="Eight steps from approval to the final report. Each one shows what the restaurant provides and what the marketing team produces."

@@ -1,4 +1,5 @@
 import { useId, useMemo, useState } from 'react';
+import { SHOW_VIDEO } from '../data/proposal';
 import {
   DEFAULT_INPUTS,
   type FinancialInputs,
@@ -98,7 +99,7 @@ export function Financials() {
   return (
     <Section
       id="financials"
-      number="09"
+      number={SHOW_VIDEO ? '09' : '08'}
       label="Financial feasibility"
       title="What will it cost?"
       intro={

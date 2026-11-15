@@ -8,6 +8,7 @@ import { CampaignTarget } from './components/CampaignTarget';
 import { BusinessValue } from './components/BusinessValue';
 import { CreativeCampaign } from './components/CreativeCampaign';
 import { VideoPitch } from './components/VideoPitch';
+import { SHOW_VIDEO } from './data/proposal';
 import { Financials } from './components/Financials';
 import { SHOW_FINANCIALS } from './data/financialAssumptions';
 import { ExecutionPlan } from './components/ExecutionPlan';
@@ -35,7 +36,7 @@ export function App() {
         <CampaignTarget />
         <BusinessValue />
         <CreativeCampaign onOpenImage={setImage} />
-        <VideoPitch />
+        {SHOW_VIDEO && <VideoPitch />}
         {SHOW_FINANCIALS && <Financials />}
         <ExecutionPlan />
         <Decision />
