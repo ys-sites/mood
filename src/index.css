@@ -72,6 +72,8 @@ dialog::backdrop {
   }
   header {
     position: static !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
   section {
     break-inside: avoid-page;
