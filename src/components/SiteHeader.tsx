@@ -1,4 +1,7 @@
-import { NAV_LINKS } from '../data/proposal';
+import { NAV_LINKS as ALL_LINKS } from '../data/proposal';
+import { SHOW_FINANCIALS } from '../data/financialAssumptions';
+
+const NAV_LINKS = ALL_LINKS.filter((link) => SHOW_FINANCIALS || link.href !== '#financials');
 import { Logo } from './Logo';
 
 export function SiteHeader() {

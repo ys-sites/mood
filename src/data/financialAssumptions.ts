@@ -1,3 +1,7 @@
+// Set to true to show the "What will it cost?" section, its nav link and the
+// hero link again. Hidden at the client's request (November 2026).
+export const SHOW_FINANCIALS = false;
+
 // Placeholder assumptions for the cost table. None of these are Shawarma Moods'
 // actual figures. The owner replaces them in the page and the table recalculates.
 

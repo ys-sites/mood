@@ -1,4 +1,5 @@
 import type { DialogImage } from './ImageDialog';
+import { SHOW_FINANCIALS } from '../data/financialAssumptions';
 
 export const MAIN_POSTER: DialogImage = {
   src: '/Buy One, Give One Shawarma.png',
@@ -58,8 +59,11 @@ export function Hero({ onOpenImage }: { onOpenImage: (img: DialogImage) => void 
             >
               See how it works
             </a>
-            <a href="#financials" className="text-[15px] font-semibold text-ink underline underline-offset-4 hover:no-underline">
-              Go to the costs
+            <a
+              href={SHOW_FINANCIALS ? '#financials' : '#decision'}
+              className="text-[15px] font-semibold text-ink underline underline-offset-4 hover:no-underline"
+            >
+              {SHOW_FINANCIALS ? 'Go to the costs' : 'See what we need from you'}
             </a>
           </div>
         </div>

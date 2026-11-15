@@ -82,7 +82,7 @@ The site is a single white, editorial business proposal (redesigned November 202
 6. **The business value (`#value`)**: four realistic benefits, no guarantees.
 7. **The creative campaign (`#creative`)**: concept poster with full-size viewer and the list of planned pieces.
 8. **The video pitch (`#video`)**: honest "in production" placeholders and planned outlines.
-9. **Financial feasibility (`#financials`)**: editable placeholder assumptions and cost table (1,000 / 2,000 / custom).
+9. **Financial feasibility (`#financials`)**: editable placeholder assumptions and cost table (1,000 / 2,000 / custom). *Currently hidden: set `SHOW_FINANCIALS = true` in `src/data/financialAssumptions.ts` to show it.*
 10. **Execution plan (`#execution`)**: eight steps with restaurant and marketing responsibilities.
 11. **The decision (`#decision`)**: six owner decisions and a print/PDF button.
 

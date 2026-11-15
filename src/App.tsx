@@ -9,6 +9,7 @@ import { BusinessValue } from './components/BusinessValue';
 import { CreativeCampaign } from './components/CreativeCampaign';
 import { VideoPitch } from './components/VideoPitch';
 import { Financials } from './components/Financials';
+import { SHOW_FINANCIALS } from './data/financialAssumptions';
 import { ExecutionPlan } from './components/ExecutionPlan';
 import { Decision } from './components/Decision';
 import { ImageDialog, type DialogImage } from './components/ImageDialog';
@@ -35,7 +36,7 @@ export function App() {
         <BusinessValue />
         <CreativeCampaign onOpenImage={setImage} />
         <VideoPitch />
-        <Financials />
+        {SHOW_FINANCIALS && <Financials />}
         <ExecutionPlan />
         <Decision />
       </main>

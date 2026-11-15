@@ -1,11 +1,12 @@
 import { DECISIONS } from '../data/proposal';
 import { Section } from './Section';
+import { SHOW_FINANCIALS } from '../data/financialAssumptions';
 
 export function Decision() {
   return (
     <Section
       id="decision"
-      number="11"
+      number={SHOW_FINANCIALS ? '11' : '10'}
       label="The decision"
       title="Let’s make it happen."
       intro="Buy One. Give One. gives Shawarma Moods an opportunity to build a Christmas campaign around community participation, measurable giving, and authentic local engagement."
