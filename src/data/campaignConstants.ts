@@ -1,0 +1,415 @@
+export type Language = 'en' | 'fr';
+
+export interface SectionMeta {
+  id: string;
+  number: string;
+  titleEn: string;
+  titleFr: string;
+  presenterNoteEn: string;
+  presenterNoteFr: string;
+}
+
+export const BRAND_TOKENS = {
+  primaryGold: '#EAAA2F',
+  promoYellow: '#FBCE22',
+  deepGold: '#B78D1D',
+  neonGlow: '#B9B501',
+  black: '#0B0B0C',
+  charcoal: '#333333',
+  white: '#FFFFFF',
+} as const;
+
+export const CAMPAIGN_FACTS = {
+  brandName: 'SHAWARMA MOODS',
+  handle: '@shawarmamoods',
+  footprint: '8 locations (QC & ON — Laval, Montréal, Saint-Jérôme, Oakville)',
+  flagshipNote: 'Scope options: Centre-Ville Montréal flagship (1,000 meals) OR all 8 locations (~125 meals/location)',
+  campaignTitle: 'BUY ONE. GIVE ONE.',
+  taglineEn: 'SPREAD THE MOOD.',
+  taglineFr: 'PARTAGE LE MOOD.',
+  hookExistingBrand: 'Because one is never enough.',
+  subTaglineEn: 'One for you. One for someone in need.',
+  subTaglineFr: 'Un pour toi. Un pour une personne dans le besoin.',
+  labelEn: 'CHRISTMAS 2026 — PRIVATE CAMPAIGN PROPOSAL.',
+  labelFr: 'NOËL 2026 — PROPOSITION DE CAMPAGNE PRIVÉE.',
+  initialGoalMeals: 1000,
+  stretchGoalMeals: 2000,
+  restaurantMatchPerMeal: 1,
+  targetDistributionDate: 'December 23, 2026',
+  targetDistributionWindow: 'Christmas Week 2026',
+} as const;
+
+export const PRESENTATION_SECTIONS: SectionMeta[] = [
+  {
+    id: 'section-1',
+    number: '01',
+    titleEn: 'Cinematic Hero',
+    titleFr: 'Ouverture Cinématique',
+    presenterNoteEn: 'Set the tone immediately: this is a high-craft Shawarma Moods brand campaign, not a generic charity flyer. Emphasize "Buy One. Give One. Spread the Mood."',
+    presenterNoteFr: 'Posez le décor : une campagne de marque haut de gamme pour Shawarma Moods, fidèle au slogan « Partage le MOOD ».',
+  },
+  {
+    id: 'section-2',
+    number: '02',
+    titleEn: 'Why This Campaign Exists',
+    titleFr: 'Pourquoi Cette Campagne',
+    presenterNoteEn: 'Connect to the brand’s existing line "Because one is never enough." Now buying two has a human purpose during a cold Québec/Ontario December.',
+    presenterNoteFr: 'Reliez au slogan existant de la marque : acheter deux shawarmas prend tout son sens en décembre.',
+  },
+  {
+    id: 'section-3',
+    number: '03',
+    titleEn: 'How Buy One. Give One. Works',
+    titleFr: 'Le Mécanisme en 3 Étapes',
+    presenterNoteEn: 'Make this unmistakable for the owner: the customer PAYS for two shawarmas. The second meal is NOT free—it is customer-funded.',
+    presenterNoteFr: 'Point crucial : le client PAIE deux shawarmas. Le deuxième repas n’est pas gratuit ; il est financé par le client.',
+  },
+  {
+    id: 'section-4',
+    number: '04',
+    titleEn: 'Shawarma Moods Contributes Too',
+    titleFr: 'La Contribution de 1 $',
+    presenterNoteEn: 'Explain the separate Community Fund: Shawarma Moods adds $1 per verified donated shawarma ($1,000 at goal). It is cash support, not another free wrap.',
+    presenterNoteFr: 'Chaque shawarma donné vérifié déclenche 1 $ versé par Shawarma Moods dans un fonds communautaire distinct.',
+  },
+  {
+    id: 'section-5',
+    number: '05',
+    titleEn: 'The 1,000-Meal Challenge',
+    titleFr: 'Le Défi des 1 000 Repas',
+    presenterNoteEn: 'Use the slider to walk through 250, 500, 750, 1,000, and the conditional 2,000 stretch goal. Point out the clear DEMONSTRATION label.',
+    presenterNoteFr: 'Simulez les paliers 250, 500, 750, 1 000 et 2 000. Rappelez qu’il s’agit d’une démonstration illustrative.',
+  },
+  {
+    id: 'section-6',
+    number: '06',
+    titleEn: 'Christmas Distribution',
+    titleFr: 'Distribution de Noël',
+    presenterNoteEn: 'Walk through the 7-step chain of custody from verified order to Dec 23 delivery. Stress food safety and zero exploitative filming.',
+    presenterNoteFr: 'Présentez la chaîne de traçabilité en 7 étapes jusqu’au 23 décembre, avec rigueur sanitaire et dignité.',
+  },
+  {
+    id: 'section-7',
+    number: '07',
+    titleEn: 'Community Growth Flywheel',
+    titleFr: 'Volant de Croissance',
+    presenterNoteEn: 'Click nodes on the flywheel to show how customer purchases spark organic sharing, creator participation, and local B2B sponsorships.',
+    presenterNoteFr: 'Cliquez sur chaque étape du cercle pour expliquer l’effet d’entraînement organique proposé.',
+  },
+  {
+    id: 'section-8',
+    number: '08',
+    titleEn: 'Content Creator Strategy',
+    titleFr: 'Stratégie Créateurs',
+    presenterNoteEn: 'Show the 5 Reel concepts matching Shawarma Moods’ existing energetic black-gloves & owner-on-mic style. Emphasize voluntary outreach.',
+    presenterNoteFr: 'Présentez les 5 concepts Reels alignés sur l’esthétique actuelle du compte @shawarmamoods.',
+  },
+  {
+    id: 'section-9',
+    number: '09',
+    titleEn: 'Business Partnerships',
+    titleFr: 'Partenariats B2B',
+    presenterNoteEn: 'Present Kin Academy strictly as an illustrative example (1 course enrollment = 1 meal funded), alongside fitness, retail, and local services.',
+    presenterNoteFr: 'Présentez Kin Academy comme exemple illustratif (1 inscription = 1 repas financé) parmi d’autres secteurs locaux.',
+  },
+  {
+    id: 'section-10',
+    number: '10',
+    titleEn: 'Supporting Commercial Offers',
+    titleFr: 'Offres Commerciales d’Appui',
+    presenterNoteEn: 'Keep these clearly secondary: student discount, existing 9.99$ promo (pending December confirmation), and the ~10-person Christmas Family Box.',
+    presenterNoteFr: 'Positionnez ces offres en soutien commercial secondaire, distinctes du message principal.',
+  },
+  {
+    id: 'section-11',
+    number: '11',
+    titleEn: 'Financial Simulator',
+    titleFr: 'Simulateur Financier',
+    presenterNoteEn: 'Adjust costs live with the owner. Crucially, the second shawarma STILL incurs full COGS, packaging, labor, and distribution costs.',
+    presenterNoteFr: 'Ajustez les coûts en direct : le 2e repas inclut bien ses coûts d’ingrédients, d’emballage et de main-d’œuvre.',
+  },
+  {
+    id: 'section-12',
+    number: '12',
+    titleEn: 'Campaign Asset Showcase',
+    titleFr: 'Galerie des Visuels',
+    presenterNoteEn: 'Inspect the 4:5 poster mockups (FR-over-EN bilingual hierarchy), Instagram Story frames, and in-store counter displays.',
+    presenterNoteFr: 'Explorez les maquettes 4:5 bilingues (FR prioritaire) et les mises en situation comptoir et Story.',
+  },
+  {
+    id: 'section-13',
+    number: '13',
+    titleEn: 'Cinematic Video Presentation',
+    titleFr: 'Présentation Vidéo',
+    presenterNoteEn: 'Show where the 5-minute owner pitch and 60-second trailer will live once rendered, with full synced transcripts and storyboards ready now.',
+    presenterNoteFr: 'Emplacements prêts pour les exports vidéo finaux (5 min et 60 s), accompagnés des scripts complets.',
+  },
+  {
+    id: 'section-14',
+    number: '14',
+    titleEn: 'Marketing Implementation Plan',
+    titleFr: 'Calendrier d’Exécution',
+    presenterNoteEn: 'Review the Nov → Dec 31 schedule, dependencies, and who owns each milestone (Owner, Ops, Marketing, Nonprofit Partner).',
+    presenterNoteFr: 'Passez en revue le calendrier de novembre au 31 décembre et les parties prenantes responsables.',
+  },
+  {
+    id: 'section-15',
+    number: '15',
+    titleEn: 'Owner Decision',
+    titleFr: 'Décision de la Direction',
+    presenterNoteEn: 'Walk through the 8 specific approvals needed—including 1 flagship vs. all 8 locations—and record local review notes during the meeting.',
+    presenterNoteFr: 'Validez les 8 points de décision (dont 1 succursale vs 8 succursales) et consignez les notes de réunion.',
+  },
+];
+
+export const DISTRIBUTION_STEPS = [
+  {
+    step: '01',
+    title: 'Donation Recorded',
+    titleFr: 'Don Enregistré',
+    detail: 'POS button or online bundle logs each qualifying 2-shawarma purchase in real time.',
+    detailFr: 'La caisse (POS) ou la commande en ligne enregistre chaque duo admissible.',
+    owner: 'POS / Store Staff',
+  },
+  {
+    step: '02',
+    title: 'Meal Count Verified',
+    titleFr: 'Décompte Vérifié',
+    detail: 'Daily reconciliation separates customer-funded meals from regular sales and calculates the $1 match.',
+    detailFr: 'Réconciliation quotidienne des repas financés et du fonds de 1 $.',
+    owner: 'Management / Accounting',
+  },
+  {
+    step: '03',
+    title: 'Community Partner Confirmed',
+    titleFr: 'Partenaire Confirmé',
+    detail: 'Written intake agreement with a vetted Québec/Ontario shelter or food bank (location & capacity locked).',
+    detailFr: 'Entente écrite confirmant le lieu, l’heure et la capacité d’accueil avec un organisme vérifié.',
+    owner: 'Owner & Nonprofit Lead',
+  },
+  {
+    step: '04',
+    title: 'Food Preparation Scheduled',
+    titleFr: 'Préparation Planifiée',
+    detail: 'Dedicated off-peak kitchen batching schedule on Dec 22–23 so regular holiday service stays uninterrupted.',
+    detailFr: 'Plages de préparation dédiées les 22 et 23 décembre sans ralentir le service régulier.',
+    owner: 'Kitchen Manager',
+  },
+  {
+    step: '05',
+    title: 'Meals Safely Packaged',
+    titleFr: 'Emballage Sécuritaire',
+    detail: 'Foil-wrapped in branded checkered parchment and sealed in insulated thermal carriers (>60°C).',
+    detailFr: 'Emballés chauds dans des caissons isothermes certifiés (>60 °C).',
+    owner: 'Prep Team',
+  },
+  {
+    step: '06',
+    title: 'Meals Distributed (Target Dec 23)',
+    titleFr: 'Livraison (Cible 23 Déc.)',
+    detail: 'Respectful handoff to partner staff. Zero invasive filming of recipients; focus remains on craft and teamwork.',
+    detailFr: 'Remise digne aux équipes sur place. Aucune captation intrusive des bénéficiaires.',
+    owner: 'Delivery Team & Partner',
+  },
+  {
+    step: '07',
+    title: 'Final Impact Report Published',
+    titleFr: 'Bilan Final Publié',
+    detail: 'Post-Christmas transparency recap sharing verified meal totals and community fund allocation.',
+    detailFr: 'Rapport transparent après Noël présentant les totaux vérifiés.',
+    owner: 'Shawarma Moods HQ',
+  },
+];
+
+export const FLYWHEEL_STAGES = [
+  {
+    id: 'give',
+    step: '01',
+    label: 'CUSTOMERS GIVE.',
+    labelFr: 'LES CLIENTS DONNENT.',
+    description: 'Guests order the Buy One. Give One. two-shawarma bundle—paying for their meal and funding a neighbour’s.',
+    mechanism: 'Trigger: Counter signage + "Because one is never enough" hook.',
+  },
+  {
+    id: 'counter',
+    step: '02',
+    label: 'THE COUNTER GROWS.',
+    labelFr: 'LE COMPTEUR MONTE.',
+    description: 'Verified meal counts and Shawarma Moods’ $1 match update visibly toward the 1,000-meal milestone.',
+    mechanism: 'Proof: Daily POS reconciliation prevents inflated claims.',
+  },
+  {
+    id: 'share',
+    step: '03',
+    label: 'PEOPLE SHARE.',
+    labelFr: 'LES GENS PARTAGENT.',
+    description: 'Customers tag their "shawarma partner" in Stories using the iconic checkered wrapper—organic social proof.',
+    mechanism: 'Habit: Reuses @shawarmamoods’ existing DM-share mechanic.',
+  },
+  {
+    id: 'creators',
+    step: '04',
+    label: 'CREATORS PARTICIPATE.',
+    labelFr: 'LES CRÉATEURS PARTICIPENT.',
+    description: 'Voluntary local Montréal/Laval food creators join behind the counter in black gloves to spotlight milestone batches.',
+    mechanism: 'Credibility: Food-first storytelling, never guaranteed views.',
+  },
+  {
+    id: 'businesses',
+    step: '05',
+    label: 'LOCAL BUSINESSES JOIN.',
+    labelFr: 'LES ENTREPRISES SE JOIGNENT.',
+    description: 'Neighbourhood schools, gyms, and offices sponsor 25–100 meal blocks or tie enrollments (e.g., Kin Academy) to meals.',
+    mechanism: 'Scale: B2B bulk orders accelerate progress toward 1,000.',
+  },
+  {
+    id: 'funded',
+    step: '06',
+    label: 'MORE MEALS ARE FUNDED.',
+    labelFr: 'PLUS DE REPAS FINANCÉS.',
+    description: 'Combined consumer + B2B momentum fills the Dec 23 kitchen batch and unlocks the $1,000 community fund.',
+    mechanism: 'Control: Stretch to 2,000 only if capacity & budget allow.',
+  },
+  {
+    id: 'community',
+    step: '07',
+    label: 'THE COMMUNITY GROWS.',
+    labelFr: 'LA COMMUNAUTÉ GRANDIT.',
+    description: 'Shawarma Moods earns lasting neighbourhood goodwill and holiday affinity that carries into 2027.',
+    mechanism: 'Outcome: Long-term brand equity across QC & ON.',
+  },
+];
+
+export const REEL_CONCEPTS = [
+  {
+    id: 'reel-launch',
+    title: '1. Campaign Launch Reel',
+    hook: '"Because one is never enough." — Owner on lav mic under the yellow MOOD neon.',
+    format: '28s · 9:16 Vertical',
+    beats: [
+      '0:00–0:05: Owner in black logo tee holds two checkered-wrapped shawarmas.',
+      '0:05–0:15: Explains Buy One. Give One. clearly—one for you, one funded for Dec 23.',
+      '0:15–0:23: Flame-lit rotisserie macro + +$1 Community Fund graphic.',
+      '0:23–0:28: CTA: "Tag who you’re buying two with. Partage le MOOD."',
+    ],
+    status: 'Proposed Concept',
+  },
+  {
+    id: 'reel-prep',
+    title: '2. Shawarma Preparation Reel',
+    hook: 'ASMR sizzle, black nitrile gloves, garlic toum drizzle, and crisp grill marks.',
+    format: '22s · 9:16 Vertical',
+    beats: [
+      '0:00–0:06: Knife carving sizzling chicken off the vertical spit (120fps).',
+      '0:06–0:14: Squeeze-bottle garlic drizzle + pickles + pan-fried crispy press.',
+      '0:14–0:22: Wrapping two identical shawarmas side-by-side in checkered paper.',
+    ],
+    status: 'Proposed Concept',
+  },
+  {
+    id: 'reel-milestone',
+    title: '3. Counter Milestone Update',
+    hook: '"Montréal, we just crossed 500 meals—halfway to 1,000."',
+    format: '18s · 9:16 Vertical',
+    beats: [
+      '0:00–0:05: Quick tally overlay showing verified meals & $500 restaurant match.',
+      '0:05–0:12: Staff high-five behind the counter; thermal boxes stacked.',
+      '0:12–0:18: Clear reminder of the Dec 23 distribution target.',
+    ],
+    status: 'Proposed Concept',
+  },
+  {
+    id: 'reel-creator',
+    title: '4. Creator Participation Reel',
+    hook: 'Street interview / behind-the-counter cameo ("THIS IS SHAWARMA MOODS...").',
+    format: '30s · 9:16 Vertical',
+    beats: [
+      '0:00–0:08: Voluntary local creator puts on black gloves to wrap a milestone order.',
+      '0:08–0:20: Taste test of Crispy Moods + explaining why buying two matters.',
+      '0:20–0:30: Honest organic sign-off—no scripted hype or fake metrics.',
+    ],
+    status: 'Voluntary Outreach',
+  },
+  {
+    id: 'reel-recap',
+    title: '5. Distribution Recap Concept',
+    hook: 'Steam rising from thermal Cambro boxes on December 23—dignity first.',
+    format: '35s · 9:16 Vertical',
+    beats: [
+      '0:00–0:10: Early morning kitchen team loading insulated carriers.',
+      '0:10–0:22: Arrival and warm handoff with partner shelter coordinators (no recipient faces).',
+      '0:22–0:35: Final verified count overlay + thank you to guests & staff.',
+    ],
+    status: 'Consent-First Concept',
+  },
+];
+
+export const IMPLEMENTATION_PHASES = [
+  {
+    window: 'November 2026',
+    phase: 'Planning & Approvals',
+    owner: 'Owner + Strategy Lead',
+    tasks: [
+      'Confirm scope: Centre-Ville flagship vs. 8-location network.',
+      'Confirm December pricing, $1 match cap ($1,000), and POS tracking code.',
+      'Sign intake agreement with vetted Montréal/local nonprofit partner.',
+      'Approve bilingual FR/EN counter posters and shoot 60s/5m video assets.',
+    ],
+    dependency: 'Requires owner sign-off before any public post.',
+  },
+  {
+    window: 'December 1, 2026',
+    phase: 'Proposed Campaign Launch',
+    owner: 'Marketing + Store Managers',
+    tasks: [
+      'Publish Launch Reel and activate in-store 4:5 counter signage.',
+      'Brief counter staff on explaining "Buy two: one for you, one to donate."',
+      'Activate daily POS reconciliation sheet for verified meal counts.',
+    ],
+    dependency: 'POS button & bilingual signage installed.',
+  },
+  {
+    window: 'December 2–20, 2026',
+    phase: 'Community Participation & Outreach',
+    owner: 'Creators + B2B Outreach',
+    tasks: [
+      'Share milestone updates at 250, 500, and 750 verified meals.',
+      'Host voluntary local creators behind the counter.',
+      'Onboard local B2B sponsors (e.g., Kin Academy example) for bulk meal blocks.',
+    ],
+    dependency: 'Verified POS counts updated every 48 hours.',
+  },
+  {
+    window: 'December 21–22, 2026',
+    phase: 'Final Production & Coordination',
+    owner: 'Kitchen Manager + Logistics',
+    tasks: [
+      'Lock final meal count and confirm protein/pita/packaging inventory.',
+      'Inspect thermal Cambro carriers and confirm Dec 23 delivery route.',
+      'Stage prep shifts so regular customer service remains fast.',
+    ],
+    dependency: 'Final headcount confirmed with shelter partner.',
+  },
+  {
+    window: 'December 23, 2026',
+    phase: 'Proposed Distribution Event',
+    owner: 'Kitchen Team + Delivery Lead',
+    tasks: [
+      'Execute batched prep, temperature log (>60°C), and thermal packing.',
+      'Deliver hot meals to partner organization(s) on schedule.',
+      'Capture respectful behind-the-scenes kitchen & handoff footage only.',
+    ],
+    dependency: 'Food safety temp logs & partner sign-off.',
+  },
+  {
+    window: 'December 24–31, 2026',
+    phase: 'Impact Report & Campaign Recap',
+    owner: 'Management + Marketing',
+    tasks: [
+      'Reconcile final verified donated meals and $1/meal community fund transfer.',
+      'Publish transparent Impact Recap Reel & community thank-you post.',
+      'Review lessons learned for potential 2027 expansion.',
+    ],
+    dependency: 'Final accounting verification.',
+  },
+];

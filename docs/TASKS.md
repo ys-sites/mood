@@ -1,29 +1,31 @@
 # MASTER IMPLEMENTATION TASKS — STATUS REPORT
 
 - [x] Phase 1: Environment & Project Inspection
-  - [x] Check directory structure and package setup
-  - [x] Create AGENTS.md, BRIEF.md, TASKS.md, ASSETS.md, DECISIONS.md
-- [x] Phase 2: Design Tokens & Typography
-  - [x] Configure Tailwind CSS v4 and Google Fonts (`Bebas Neue`, `Plus Jakarta Sans`, `JetBrains Mono`)
-  - [x] Implement Shawarma Moods brand tokens (black/charcoal, gold `#F59E0B`, amber lights)
-- [x] Phase 3: Core Interactive Modules & Components (Strict Narrative Hierarchy)
-  - [x] Proposal Banner: Persistent private pitch watermark and legal discretion disclaimer
-  - [x] Navigation Bar: Brand mark, quick anchors, EN/FR language toggle, owner review shortcut
-  - [x] Section 1: Hero Section with bold typography, "BUY ONE. GIVE ONE. SPREAD THE MOOD.", official poster preview
-  - [x] Section 2: The Emotional Hook ("The Why" - Montréal winter narrative & human dignity)
-  - [x] Section 3: The 3-Step Mechanism ("One for you. One for someone in need." Customer purchases two)
-  - [x] Section 4: The Shared Commitment (Shawarma Moods +$1.00 cash match per verified meal)
-  - [x] Section 5: The 1,000 Challenge & Interactive Demo Tracker (real-time slider, milestone status 250 to 2,000)
-  - [x] Section 6: Christmas Community Delivery Plan (Dec 23 timeline, HACCP thermal chain, dignity filming policy)
-  - [x] Section 7: Creator Amplification & PR Roadmap (local foodies, student ambassadors, ethical storytelling)
-  - [x] Section 8: B2B Expansion & Case Study (Kin Academy hypothetical enrollment match)
-  - [x] Section 9: Commercial Add-ons ($10 promo deal, student care combo, 10-person Family Box)
-  - [x] Section 10: Interactive Unit Economics & Sensitivity Calculator (margins, sliders, 350/1000/2000 scenarios)
-  - [x] Section 11: Video Production Suite (Claude Opus 60s Trailer & 5min Owner Pitch storyboards/scripts)
-  - [x] Section 12: Creative Poster Showcase (interactive gallery + `/Buy One, Give One Shawarma.png` zoom lightbox)
-  - [x] Section 13: Owner Decision & Pre-Launch Readiness Gate (interactive checklist, risk mitigations, alignment form)
-  - [x] Lightbox Modal: High-resolution poster inspection
-  - [x] Footer: Brand legal notices, Montréal attribution, conceptual disclaimers
+  - [x] Audited `AGENTS.md`, `Shawarma_Moods_Antigravity_System.md`, `docs/BRAND_STUDY.md`, `package.json`, `tsconfig.json`
+  - [x] Confirmed absence of `VIDEO_HANDOFF.md` and `.mp4` assets; preserved placeholder policy
+- [x] Phase 2: Brand Tokens, Fonts & Centralized Data Layer
+  - [x] Updated `index.html` and `src/index.css` with `Bebas Neue`, `Montserrat` (700/800/900), `Inter`, `JetBrains Mono` and measured brand tokens (`#EAAA2F`, `#FBCE22`, `#0B0B0C`, `#333333`)
+  - [x] Created `src/data/campaignConstants.ts` (15-section metadata, EN/FR presenter notes, 8 QC/ON locations, flywheel stages, reel concepts, implementation phases)
+  - [x] Created `src/data/financialAssumptions.ts` (deterministic unit economics and Conservative / Target 1,000 / Stretch 2,000 scenarios)
+- [x] Phase 3: 15-Section Presentation Architecture & Special Presentation Mode
+  - [x] `ProposalBanner.tsx` & `Navbar.tsx` (EN/FR toggle, Presentation Mode toggle, anchor links)
+  - [x] `PresentationControls.tsx` (progress bar, `01/15` indicator, arrow-key navigation, presenter notes, reduced-motion toggle, overview drawer, fullscreen toggle)
+  - [x] Section 1 (`#section-1`): `CampaignHero.tsx`
+  - [x] Section 2 (`#section-2`): `NarrativeSection.tsx`
+  - [x] Section 3 (`#section-3`): `TwoShawarmaExplainer.tsx` (customer buys two; second shawarma is NOT free)
+  - [x] Section 4 (`#section-4`): `RestaurantContribution.tsx` (+$1 per verified meal into separate community fund)
+  - [x] Section 5 (`#section-5`): `DonationSimulator.tsx` (0–2,000 slider, milestones 250/500/750/1,000/2,000)
+  - [x] Section 6 (`#section-6`): `MilestoneTimeline.tsx` (Dec 23 proposed distribution workflow)
+  - [x] Section 7 (`#section-7`): `CommunityFlywheel.tsx` (interactive 7-stage circular flywheel)
+  - [x] Section 8 (`#section-8`): `CreatorReelShowcase.tsx` (5 Reel concepts & voluntary creator plan)
+  - [x] Section 9 (`#section-9`): `PartnerNetwork.tsx` (Kin Academy illustrative example & B2B sectors)
+  - [x] Section 10 (`#section-10`): `CommercialOffersSection.tsx` (secondary commercial offers)
+  - [x] Section 11 (`#section-11`): `FinancialSimulator.tsx` (interactive unit economics & sensitivity table)
+  - [x] Section 12 (`#section-12`): `CampaignPosterGallery.tsx` (4:5 bilingual FR-over-EN posters & counter placements)
+  - [x] Section 13 (`#section-13`): `VideoShowcase.tsx` (`Owner_Pitch_5min.mp4` & `Campaign_Trailer_60sec.mp4` placeholders with synced timecoded scripts)
+  - [x] Section 14 (`#section-14`): `ImplementationTimeline.tsx` (Nov 2026 – Dec 31, 2026 roadmap)
+  - [x] Section 15 (`#section-15`): `OwnerDecisionPanel.tsx` (8-item local review draft checklist)
+  - [x] `Footer.tsx` & `App.tsx` wired with IntersectionObserver section tracking and `LightboxModal.tsx`
 - [x] Phase 4: Verification, Lint & Build
-  - [x] Resolved `esbuild` peer dependency conflict with `vite@8.3`
-  - [x] Executed `npm run build` with zero errors (`dist/` generated cleanly in 4.66s)
+  - [x] Ran `npm run lint` (`tsc --noEmit`) with exit code 0
+  - [x] Ran `npm run build` (`vite build`) with exit code 0 (`dist/` generated)

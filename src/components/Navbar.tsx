@@ -1,130 +1,155 @@
 import React, { useState } from 'react';
-import { Flame, Menu, X, ArrowUpRight, Globe, FileText, Calculator } from 'lucide-react';
+import { Flame, Menu, X, Globe, Presentation, Calculator, FileSignature } from 'lucide-react';
+import { Language } from '../data/campaignConstants';
 
 interface NavbarProps {
-  lang: 'en' | 'fr';
-  setLang: (lang: 'en' | 'fr') => void;
+  lang: Language;
+  setLang: (lang: Language) => void;
+  presentationMode: boolean;
+  onTogglePresentationMode: () => void;
   onOpenChecklist: () => void;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ lang, setLang, onOpenChecklist }) => {
+export const Navbar: React.FC<NavbarProps> = ({
+  lang,
+  setLang,
+  presentationMode,
+  onTogglePresentationMode,
+  onOpenChecklist,
+}) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: lang === 'en' ? 'The Concept' : 'Le Concept', href: '#the-why' },
-    { label: lang === 'en' ? 'Mechanism' : 'Mécanisme', href: '#mechanism' },
-    { label: lang === 'en' ? 'Challenge Tracker' : 'Objectif 1 000', href: '#tracker' },
-    { label: lang === 'en' ? 'Economics' : 'Économie', href: '#economics' },
-    { label: lang === 'en' ? 'Video Pitch' : 'Vidéo Script', href: '#video-suite' },
-    { label: lang === 'en' ? 'Posters' : 'Affiches', href: '#posters' },
-    { label: lang === 'en' ? 'Owner Decision' : 'Décision', href: '#owner-decision' },
+    { label: lang === 'en' ? 'Mechanism' : 'Mécanisme', href: '#section-3' },
+    { label: lang === 'en' ? '1,000 Goal' : 'Défi 1 000', href: '#section-5' },
+    { label: lang === 'en' ? 'Flywheel' : 'Croissance', href: '#section-7' },
+    { label: lang === 'en' ? 'Simulator' : 'Finances', href: '#section-11' },
+    { label: lang === 'en' ? 'Assets & Video' : 'Visuels & Vidéo', href: '#section-12' },
+    { label: lang === 'en' ? 'Roadmap' : 'Calendrier', href: '#section-14' },
   ];
 
   return (
-    <nav className="bg-[#0B0B0E]/90 backdrop-blur-lg border-b border-zinc-800/80 sticky top-[37px] z-40 transition-colors">
+    <nav className="bg-[#0B0B0C]/90 backdrop-blur-lg border-b border-zinc-800/80 sticky top-[37px] z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo & Brand Identity */}
-          <div className="flex items-center gap-3">
-            <a href="#" className="flex items-center gap-2 group">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
-                <Flame className="w-6 h-6 text-black fill-black" />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-headline text-2xl tracking-wider text-white leading-none">
-                  SHAWARMA MOODS
-                </span>
-                <span className="text-[10px] uppercase font-bold text-amber-400 tracking-widest leading-tight">
-                  Montréal · Holiday 2026
-                </span>
-              </div>
-            </a>
-          </div>
+          {/* Brand Identity */}
+          <a href="#section-1" className="flex items-center gap-3 group">
+            <div className="w-10 h-10 rounded-lg bg-[#EAAA2F] flex items-center justify-center shadow-lg shadow-[#EAAA2F]/20 group-hover:scale-105 transition-transform">
+              <Flame className="w-6 h-6 text-[#0B0B0C] fill-[#0B0B0C]" />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-headline text-2xl tracking-wider text-white leading-none">
+                SHAWARMA MOODS
+              </span>
+              <span className="text-[10px] uppercase font-bold text-[#EAAA2F] tracking-widest leading-tight">
+                {lang === 'en' ? 'Buy One. Give One.' : 'Partage le MOOD.'}
+              </span>
+            </div>
+          </a>
 
           {/* Desktop Nav Items */}
-          <div className="hidden lg:flex items-center space-x-1 xl:space-x-2">
+          <div className="hidden lg:flex items-center space-x-1">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-xs font-semibold uppercase tracking-wider text-zinc-300 hover:text-amber-400 px-3 py-2 rounded-md hover:bg-zinc-800/50 transition-colors"
+                className="text-xs font-semibold uppercase tracking-wider text-zinc-300 hover:text-[#EAAA2F] px-3 py-2 rounded-md hover:bg-zinc-900 transition-colors"
               >
                 {link.label}
               </a>
             ))}
           </div>
 
-          {/* Action Tools & Language Toggle */}
-          <div className="hidden sm:flex items-center gap-3">
-            {/* Language Switcher */}
+          {/* Action Tools */}
+          <div className="hidden sm:flex items-center gap-2.5">
             <button
               onClick={() => setLang(lang === 'en' ? 'fr' : 'en')}
-              className="flex items-center gap-1.5 text-xs font-bold text-zinc-400 hover:text-amber-400 bg-zinc-900 border border-zinc-700/60 px-2.5 py-1.5 rounded-lg transition-colors"
-              title="Toggle English / Français"
+              className="flex items-center gap-1.5 text-xs font-bold text-zinc-300 hover:text-[#EAAA2F] bg-[#141417] border border-zinc-800 px-2.5 py-1.5 rounded-lg transition-colors"
+              aria-label="Toggle language"
             >
-              <Globe className="w-3.5 h-3.5 text-amber-500" />
+              <Globe className="w-3.5 h-3.5 text-[#EAAA2F]" />
               <span>{lang.toUpperCase()}</span>
             </button>
 
-            {/* Quick jump to Financial Simulator */}
-            <a
-              href="#economics"
-              className="flex items-center gap-1.5 text-xs font-bold text-zinc-300 hover:text-white bg-zinc-800/80 hover:bg-zinc-700/80 px-3 py-1.5 rounded-lg border border-zinc-700/60 transition-colors"
+            <button
+              onClick={onTogglePresentationMode}
+              className={`flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-lg border transition-colors ${
+                presentationMode
+                  ? 'bg-[#EAAA2F] text-[#0B0B0C] border-[#EAAA2F]'
+                  : 'bg-[#141417] text-zinc-200 hover:text-[#EAAA2F] border-zinc-800'
+              }`}
             >
-              <Calculator className="w-3.5 h-3.5 text-amber-400" />
-              <span>{lang === 'en' ? 'Calculator' : 'Calculateur'}</span>
-            </a>
+              <Presentation className="w-3.5 h-3.5" />
+              <span>{presentationMode ? (lang === 'en' ? 'Exit Pitch Mode' : 'Quitter Mode') : (lang === 'en' ? 'Present Mode' : 'Mode Présentation')}</span>
+            </button>
 
-            {/* Owner Checklist Modal trigger */}
             <button
               onClick={onOpenChecklist}
-              className="flex items-center gap-1.5 text-xs font-bold text-black bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 px-3.5 py-1.5 rounded-lg shadow-md shadow-amber-500/20 transition-all hover:scale-[1.02]"
+              className="flex items-center gap-1.5 text-xs font-bold text-[#0B0B0C] bg-[#EAAA2F] hover:bg-[#FBCE22] px-3.5 py-1.5 rounded-lg shadow-md shadow-[#EAAA2F]/15 transition-colors"
             >
-              <FileText className="w-3.5 h-3.5" />
-              <span>{lang === 'en' ? 'Approval Checklist' : 'Feuille de Route'}</span>
+              <FileSignature className="w-3.5 h-3.5" />
+              <span>{lang === 'en' ? 'Owner Decision' : 'Décision'}</span>
             </button>
           </div>
 
-          {/* Mobile hamburger button */}
+          {/* Mobile Controls */}
           <div className="flex lg:hidden items-center gap-2">
             <button
               onClick={() => setLang(lang === 'en' ? 'fr' : 'en')}
-              className="text-xs font-bold text-zinc-400 border border-zinc-700 px-2 py-1 rounded"
+              className="text-xs font-bold text-zinc-300 border border-zinc-800 px-2 py-1 rounded"
             >
               {lang.toUpperCase()}
             </button>
             <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-zinc-400 hover:text-white p-2 rounded-lg bg-zinc-900 border border-zinc-800"
+              onClick={onTogglePresentationMode}
+              className={`p-2 rounded-lg border ${
+                presentationMode ? 'bg-[#EAAA2F] text-[#0B0B0C] border-[#EAAA2F]' : 'bg-[#141417] text-zinc-300 border-zinc-800'
+              }`}
+              aria-label="Toggle presentation mode"
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              <Presentation className="w-4 h-4" />
+            </button>
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="text-zinc-300 hover:text-white p-2 rounded-lg bg-[#141417] border border-zinc-800"
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
         </div>
       </div>
 
-      {/* Mobile Menu Dropdown */}
+      {/* Mobile Dropdown */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-zinc-950 border-b border-zinc-800 px-4 pt-3 pb-5 space-y-2">
+        <div className="lg:hidden bg-[#0B0B0C] border-b border-zinc-800 px-4 pt-2 pb-5 space-y-2">
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
               onClick={() => setMobileMenuOpen(false)}
-              className="block text-sm font-semibold uppercase tracking-wider text-zinc-200 hover:text-amber-400 py-2 border-b border-zinc-900"
+              className="block text-sm font-semibold uppercase tracking-wider text-zinc-200 hover:text-[#EAAA2F] py-2 border-b border-zinc-900"
             >
               {link.label}
             </a>
           ))}
-          <div className="pt-2 flex flex-col gap-2">
+          <div className="pt-2 flex gap-2">
+            <a
+              href="#section-11"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex-1 text-center text-xs font-bold text-zinc-200 bg-[#141417] border border-zinc-800 py-2.5 rounded-lg flex items-center justify-center gap-1"
+            >
+              <Calculator className="w-3.5 h-3.5 text-[#EAAA2F]" />
+              <span>Economics</span>
+            </a>
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
                 onOpenChecklist();
               }}
-              className="w-full text-center text-xs font-bold text-black bg-amber-400 py-2.5 rounded-lg"
+              className="flex-1 text-center text-xs font-bold text-[#0B0B0C] bg-[#EAAA2F] py-2.5 rounded-lg"
             >
-              {lang === 'en' ? 'Open Approval Checklist' : 'Ouvrir la Liste d\'Approbation'}
+              {lang === 'en' ? 'Owner Decision' : 'Décision'}
             </button>
           </div>
         </div>
