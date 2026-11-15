@@ -1,0 +1,29 @@
+# MASTER IMPLEMENTATION TASKS — STATUS REPORT
+
+- [x] Phase 1: Environment & Project Inspection
+  - [x] Check directory structure and package setup
+  - [x] Create AGENTS.md, BRIEF.md, TASKS.md, ASSETS.md, DECISIONS.md
+- [x] Phase 2: Design Tokens & Typography
+  - [x] Configure Tailwind CSS v4 and Google Fonts (`Bebas Neue`, `Plus Jakarta Sans`, `JetBrains Mono`)
+  - [x] Implement Shawarma Moods brand tokens (black/charcoal, gold `#F59E0B`, amber lights)
+- [x] Phase 3: Core Interactive Modules & Components (Strict Narrative Hierarchy)
+  - [x] Proposal Banner: Persistent private pitch watermark and legal discretion disclaimer
+  - [x] Navigation Bar: Brand mark, quick anchors, EN/FR language toggle, owner review shortcut
+  - [x] Section 1: Hero Section with bold typography, "BUY ONE. GIVE ONE. SPREAD THE MOOD.", official poster preview
+  - [x] Section 2: The Emotional Hook ("The Why" - Montréal winter narrative & human dignity)
+  - [x] Section 3: The 3-Step Mechanism ("One for you. One for someone in need." Customer purchases two)
+  - [x] Section 4: The Shared Commitment (Shawarma Moods +$1.00 cash match per verified meal)
+  - [x] Section 5: The 1,000 Challenge & Interactive Demo Tracker (real-time slider, milestone status 250 to 2,000)
+  - [x] Section 6: Christmas Community Delivery Plan (Dec 23 timeline, HACCP thermal chain, dignity filming policy)
+  - [x] Section 7: Creator Amplification & PR Roadmap (local foodies, student ambassadors, ethical storytelling)
+  - [x] Section 8: B2B Expansion & Case Study (Kin Academy hypothetical enrollment match)
+  - [x] Section 9: Commercial Add-ons ($10 promo deal, student care combo, 10-person Family Box)
+  - [x] Section 10: Interactive Unit Economics & Sensitivity Calculator (margins, sliders, 350/1000/2000 scenarios)
+  - [x] Section 11: Video Production Suite (Claude Opus 60s Trailer & 5min Owner Pitch storyboards/scripts)
+  - [x] Section 12: Creative Poster Showcase (interactive gallery + `/Buy One, Give One Shawarma.png` zoom lightbox)
+  - [x] Section 13: Owner Decision & Pre-Launch Readiness Gate (interactive checklist, risk mitigations, alignment form)
+  - [x] Lightbox Modal: High-resolution poster inspection
+  - [x] Footer: Brand legal notices, Montréal attribution, conceptual disclaimers
+- [x] Phase 4: Verification, Lint & Build
+  - [x] Resolved `esbuild` peer dependency conflict with `vite@8.3`
+  - [x] Executed `npm run build` with zero errors (`dist/` generated cleanly in 4.66s)

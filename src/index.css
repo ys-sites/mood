@@ -1,34 +1,59 @@
 @import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
   :root {
-    --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
-    --font-serif: "Source Serif 4", ui-serif, Georgia, serif;
+    --font-headline: "Bebas Neue", sans-serif;
+    --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
   }
 
   html {
     font-family: var(--font-sans);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  body {
-    margin: 0;
-    background-color: #fafafa;
-    color: #18181b;
-  }
-
-  html.dark body {
-    background-color: #0b0b0c;
-    color: #f4f4f5;
+    background-color: #0A0A0C;
+    color: #F4F4F6;
+    color-scheme: dark;
   }
 }
 
-.font-editor-serif {
-  font-family: var(--font-serif);
+.font-headline {
+  font-family: var(--font-headline);
+  letter-spacing: 0.03em;
 }
 
-.font-editor-sans {
-  font-family: var(--font-sans);
+.font-mono-num {
+  font-family: var(--font-mono);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0D0D11;
+}
+::-webkit-scrollbar-thumb {
+  background: #272730;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F59E0B;
+}
+
+/* Shawarma Moods Checkered Ribbon Motif */
+.checkered-pattern {
+  background-image: repeating-linear-gradient(45deg, #1A1A22 25%, transparent 25%, transparent 75%, #1A1A22 75%, #1A1A22),
+                    repeating-linear-gradient(45deg, #1A1A22 25%, #0F0F14 25%, #0F0F14 75%, #1A1A22 75%, #1A1A22);
+  background-position: 0 0, 8px 8px;
+  background-size: 16px 16px;
+}
+
+/* Subtle glowing ember animation */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+.animate-subtle-glow {
+  animation: pulse-subtle 4s ease-in-out infinite;
 }
